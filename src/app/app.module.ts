@@ -16,9 +16,9 @@ import { CourseDetailPageComponent } from './course-detail-page/course-detail-pa
 import { JobsDetailPageComponent } from './jobs-detail-page/jobs-detail-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule} from './material/material.module';
-import {MatTableModule} from '@angular/material/table';
 import {FormsModule} from '@angular/forms';
 import {PortfolioService} from './portfolio.service';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +40,6 @@ import {PortfolioService} from './portfolio.service';
         AppRoutingModule,
         BrowserAnimationsModule,
         MaterialModule,
-        MatTableModule,
         FormsModule,
 
     ],
