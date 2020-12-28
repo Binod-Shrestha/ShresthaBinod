@@ -1,0 +1,18 @@
+.card{
+  padding-left: 10px;
+  width: 350px;
+  height: 400px;
+
+}
+.back-button{
+  padding: 15px;
+}
+button{
+  width: 100px;
+  font-size: 18px;
+}
+.imgSize{
+width: 100px;
+  height: auto;
+
+}

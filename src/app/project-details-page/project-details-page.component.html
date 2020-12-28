@@ -1,0 +1,20 @@
+<app-header></app-header>
+
+<div class="row " style="margin-top: 100pt; margin: 100pt;">
+  <div class="col-md-5"></div>
+  <div class="col-md-2 justify-content-center align-items-center">
+    <div>
+      <h2>{{project.name}}</h2>
+      <p>{{project.description}}</p>
+      <p>{{project.completed}}</p>
+    </div>
+  </div>
+  <div class="col-md-5"></div>
+</div>
+
+<div class="content-box" style="margin-left: 20pt;"><a routerLink="/project">
+  <button mat-raised-button  color="primary" style="width: 100pt; font-size: 15pt">Back</button>
+</a>
+</div>
+<app-footer></app-footer>
+
