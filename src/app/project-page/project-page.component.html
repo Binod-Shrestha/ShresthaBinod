@@ -8,7 +8,7 @@
   </div>
   <div class="row">
     <div class="col-lg-4 col-md-6" *ngFor="let project of projects">
-      <div class="card mb-4" >
+      <div class="card shadow mb-4" >
         <div class="card-body">
           <div style="height: 100px">
             <img src="./assets/images/{{project.image}}" alt="gitHub" class=" imgSize rounded-circle mb-3">
@@ -38,5 +38,8 @@
     </div>
   </div>
 </div>
-
+<div class="back-button"><a routerLink="/home">
+  <button mat-raised-button color="primary">Back</button>
+</a>
+</div>
 <app-footer></app-footer>

@@ -16,3 +16,7 @@ width: 100px;
   height: auto;
 
 }
+.card:hover{
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
