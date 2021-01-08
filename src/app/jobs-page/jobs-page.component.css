@@ -8,6 +8,11 @@
 @media (min-width: 1281px) {
 
   /* CSS */
+  h1{
+    text-align: center;
+    font-family: "South East";
+  }
+
   .card-job{
     padding-left: 10px;
   }
@@ -39,6 +44,10 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   /* CSS */
+  h1{
+    text-align: center;
+    font-family: "South East";
+  }
   .card-job{
     padding-left: 10px;
   }
@@ -78,7 +87,10 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
-
+  h1{
+    text-align: center;
+    font-family: "South East";
+  }
   .back-button{
     padding: 15px;
 
@@ -115,6 +127,10 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   /* CSS */
+  h1{
+    text-align: center;
+    font-family: "South East";
+  }
   .back-button{
     padding: 15px;
 
@@ -151,6 +167,10 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   /* CSS */
+  h1{
+    text-align: center;
+    font-family: "South East";
+  }
   .back-button{
     padding: 15px;
 
@@ -189,6 +209,10 @@
 
   /* CSS */
 
+  h1{
+    text-align: center;
+    font-family: "South East";
+  }
   .back-button{
     padding: 15px;
 
