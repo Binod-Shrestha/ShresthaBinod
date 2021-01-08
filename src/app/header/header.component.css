@@ -1,51 +1,419 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1501px) {
+  .spacer-img-label{
+    margin-right: 25pt;
+  }
+  nav {
+    font-size: 20px;
+  }
 
-nav {
-  font-size: 20px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
 
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1500px) {
+
+  /* CSS */
+  .spacer-img-label{
+    margin-right: 25pt;
+  }
+  nav {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
 
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-.navBar{
-  position: fixed;
-  top:0;
-  width:100%;
-  z-index: 1;
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  .spacer-img-label{
+    margin-right: 25pt;
+  }
+  nav {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
 
 }
 
-li {
-  float: left;
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .spacer-img-label{
+    margin-right: 25pt;
+  }
+  nav {
+    font-size: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+  .spacer-img-label{
+    margin-right: 25pt;
+  }
+  nav {
+    font-size: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .web-title{
+    font-size: 9pt;
+
+  }
+  .spacer-img-label{
+    margin-right: 25pt;
+  }
+  nav {
+    font-size: 12px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+
+  }
+
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+.web-title{
+  font-size: 5pt;
 
 }
-.spacer{
-  flex: 1 1 auto;
-}
+  .spacer-img-label{
+    margin-right: 18pt;
+  }
+  nav {
+    font-size: 10px;
+  }
 
-li a:hover {
-  background-color: #f3cb08;
-}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .navBar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
 
-.active {
- background-color: green;
+  li {
+    float: left;
+  }
 
-}
-.navBanner{
-  background-color: #000000;
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 1px;
+    text-decoration: none;
+
+  }
+  .spacer{
+
+  }
+
+  li a:hover {
+    background-color: #f3cb08;
+  }
+
+  .active {
+    background-color: green;
+
+  }
+  .navBanner{
+    background-color: #000000;
+  }
+
 }

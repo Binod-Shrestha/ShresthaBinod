@@ -1,32 +1,236 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-.back-button{
-  padding: 15px;
+@media (min-width: 1281px) {
+
+  /* CSS */
+.card-row{
+  margin-top: 100pt; margin-left: 50pt;
+}
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+
+  .inner{
+    overflow: hidden;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+  .course-img{
+    width: 100%;
+    height: auto;
+  }
+  .my_card{
+    cursor: pointer;
+    width: 20rem;
+    margin: 10pt;
+  }
+  .my_card:hover{
+    background-color: #f1f1f1;
+  }
 
 }
-button{
-  width: 100px;
-  font-size: 18px;
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+
+  .inner{
+    overflow: hidden;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+  .course-img{
+    width: 100%;
+    height: auto;
+  }
+  .my_card{
+    cursor: pointer;
+    width: 15rem;
+    margin: 10pt;
+  }
+  .my_card:hover{
+    background-color: #f1f1f1;
+  }
+
 }
 
-.inner{
-  overflow: hidden;
-  border: 1pt solid gray;
-  border-radius: 5pt;
-}
-.inner img{
-  transition: all 1.5s ease;
-}
-.inner:hover img{
-  transform: scale(1.5);
-}
-.course-img{
-width: 100%;
-  height: auto;
-}
-.my_card{
-  cursor: pointer;
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+
+  .inner{
+    overflow: hidden;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+  .course-img{
+    width: 100%;
+    height: auto;
+  }
+  .my_card{
+    cursor: pointer;
+    width: 13rem;
+    margin: 15pt;
+  }
+  .my_card:hover{
+    background-color: #f1f1f1;
+  }
+  .card-row{
+    margin-top: 50pt; margin-left: 8pt;
+  }
 }
-.my_card:hover{
-  background-color: #f1f1f1;
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+
+  .inner{
+    overflow: hidden;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+  .course-img{
+    width: 100%;
+    height: auto;
+  }
+  .my_card{
+    cursor: pointer;
+    width: 13rem;
+    margin: 15pt;
+  }
+  .my_card:hover{
+    background-color: #f1f1f1;
+  }
+  .card-row{
+    margin-top: 50pt; margin-left: 8pt;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+
+  .inner{
+    overflow: hidden;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+  .course-img{
+    width: 100%;
+    height: auto;
+  }
+  .my_card{
+    cursor: pointer;
+    width: 25rem;
+    margin: 15pt;
+  }
+  .my_card:hover{
+    background-color: #f1f1f1;
+  }
+  .card-row{
+    margin-top: 50pt; margin-left: 18pt;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
 }

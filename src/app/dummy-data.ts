@@ -1,19 +1,28 @@
 import {Project, Course, Jobs, Volunteer} from './types';
 
 export const projectLists: Project[] = [{
-    id: '1',
+    id: '0',
     name: 'My Portfolio',
-    description: 'my personal website',
+    description: `This application was developed using Angular Framework. The application has bootstrap and material icon for good feel and
+                  \nlook.The following things have been used in the applications:\n
+                  * Services
+                  * Routing
+                  * Event Binding
+                  * Property Binding
+                  * BootStrap
+                  * Material Icons
+
+                  `,
   completed: 2020,
-    image: "portfolio.jpg",
+    image: "binodImg.png",
 }, {
-    id: '2',
+    id: '1',
     name: 'Sheridan-EDGE',
     description: 'attendance tracking Ipad App',
   completed: 2020,
-    image: "sheridan.jpeg",
+    image: "sheridan-edge.jpg",
 }, {
-  id: '3',
+  id: '2',
   name: 'MyNavi',
   description: 'a map iOS application',
   completed: 2020,
@@ -23,13 +32,13 @@ export const projectLists: Project[] = [{
   name: 'Expense Tracker',
   description: 'Dollar tracker android mobile app',
   completed: 2020,
-  image: "expense.jpg",
+  image: "tracker.png",
 }, {
   id: '4',
   name: 'E-commerce ',
   description: 'an e-commerce asp.net web app',
   completed: 2020,
-  image: "commerce.png",
+  image: "e-commerce.jpeg",
 }, {
   id: '5',
   name: 'Covid-19',
@@ -41,115 +50,133 @@ export const projectLists: Project[] = [{
   name: 'Photo Gallary',
   description: 'an iOS mobile application',
   completed: 2020,
-  image: "gallery.jpg",
+  image: "gallery.png",
 }, {
   id: '7',
   name: 'My Portfolio',
   description: 'a react web application',
   completed: 2020,
-  image: "react.png",
+  image: "binodImg.png",
 }, {
   id: '8',
   name: 'Event Tracker Application',
   description: 'a java spring boot web application',
   completed: 2020,
-  image: "events.jpg",
+  image: "event.jpg",
 }];
 
 export const courseLists: Course[] = [{
-    id: '1',
+    id: '0',
     name: 'Java',
     description: 'Programing Language',
   completed: 2019,
   image: "java.png",
 }, {
-  id: '2',
+  id: '1',
   name: 'Swift',
   description: 'Programing Language',
   completed: 2020,
   image: "swift.jpg",
 }, {
-  id: '3',
+  id: '2',
   name: 'Kotlin',
   description: 'Programing Language',
   completed: 2020,
   image: "kotlin.png",
 },{
-  id: '4',
+  id: '3',
   name: 'Big Data',
   description: 'Programing Language',
   completed: 2019,
   image: "Hadoop.png",
 }, {
-  id: '5',
+  id: '4',
   name: 'Operating System',
   description: 'Programing Language',
   completed: 2020,
   image: "os.jpg",
 }, {
-  id: '6',
+  id: '5',
   name: 'Statistics',
   description: 'Programing Language',
   completed: 2020,
   image: "kotlin.png",
 },{
-  id: '4',
+  id: '6',
   name: 'Big Data',
   description: 'Programing Language',
   completed: 2019,
   image: "Hadoop.png",
 }, {
-  id: '5',
+  id: '7',
   name: 'Operating System',
   description: 'Programing Language',
   completed: 2020,
   image: "os.jpg",
 }, {
-  id: '6',
+  id: '8',
   name: 'Statistics',
   description: 'Programing Language',
   completed: 2020,
   image: "statistics.jpg",
 }, {
-  id: '7',
+  id: '9',
   name: 'Data Structure and Algorithm',
   description: 'Data Structure',
   completed: 2019,
   image: "algorithm.jpg",
 }, {
-  id: '8',
+  id: '10',
   name: 'ASP.Net',
   description: 'Programing Language',
   completed: 2019,
   image: "asp.png",
 }, {
-  id: '9',
+  id: '11',
   name: 'RDBMS',
   description: 'SQL Language',
   completed: 2019,
   image: "rdbms.jpg",
 }, {
-  id: '10',
+  id: '12',
   name: 'Angular',
   description: 'A Framework',
   completed: 2018,
   image: "angular.png",
 }, {
-  id: '11',
+  id: '13',
   name: 'Network Security',
   description: 'Networking',
   completed: 2020,
   image: "network_security.png",
 }, {
-  id: '12',
+  id: '14',
   name: 'Project Management',
   description: 'Management Tool',
   completed: 2019,
   image: "kotlin.png",
 }, {
-  id: '13',
+  id: '15',
   name: 'Flutter',
   description: 'A cross platform',
+  completed: 2020,
+  image: "flutter.png",
+}, {
+  id: '16',
+  name: 'Angular',
+  description: 'A front-end framework',
+  completed: 2019,
+  image: "flutter.png",
+}, {
+  id: '17',
+  name: 'RDBMS',
+  description: 'A relational database course',
+  completed: 2018,
+  image: "flutter.png",
+}, {
+  id: '18',
+  name: 'Spring Boot and Microservices',
+  description: 'an advance java framework',
   completed: 2020,
   image: "flutter.png",
 }];
@@ -215,7 +242,7 @@ Android Studio, Visual Studio Code etc
   id: '4',
   company: 'Sheridan College',
   job_title: "PAL Leader",
-  job_description: "dummy record",
+  job_description: "Helped navigate the school programs and courses to first year students. Conducted online tutoring sessions for programming.",
   start_year: 2020,
   start_month: "September",
   end_year: 2020,
@@ -244,7 +271,7 @@ export const volunteerLists: Volunteer[] = [{
   id:'1',
   organization: 'RBC',
   event:'Hackathon',
-  description: '',
+  description: 'Built an iOS mobile to keep track of expiry date of groceries bought',
   start_year: 2019,
   end_year: 2020,
   start_month: "September",
@@ -255,7 +282,7 @@ export const volunteerLists: Volunteer[] = [{
   id:'2',
   organization: 'Canadian Tire',
   event:'Hackathon',
-  description: '',
+  description: 'An e-commerce web application with the search engine using machine learning and fasted sorting algorithm',
   start_year: 2019,
   end_year: 2020,
   start_month: "September",
@@ -266,7 +293,7 @@ export const volunteerLists: Volunteer[] = [{
   id:'3',
   organization: 'RBC',
   event:'Hackathon',
-  description: '',
+  description: 'Build and designed an iOS application to track of pet expenditures and vaccine schedules',
   start_year: 2019,
   end_year: 2020,
   start_month: "September",
@@ -275,9 +302,9 @@ export const volunteerLists: Volunteer[] = [{
 
 },{
   id:'4',
-  organization: 'Canada Learing Code',
-  event:'Facilitaion in Centential Seconday School',
-  description: '',
+  organization: 'Canada Learning Code',
+  event:'Facilitation in Centennial Secondary School',
+  description: 'Coached secondary students to build a simple web app using HTML and CSS',
   start_year: 2019,
   end_year: 2020,
   start_month: "September",

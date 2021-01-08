@@ -2,39 +2,30 @@
 
 
 <div style="margin-top: 70px">
-
-  <div>
-  <div class="col">
-    <div class="card mb-3" style="margin-left: 200pt; margin-right: 200pt" *ngFor="let job of jobs">
+    <div class="card mb-3"  *ngFor="let job of jobs">
       <div class="card-body">
+          <div class="row card-image">
+            <div class="col-4 ">
+               <img src="./assets/images/{{job.image}}" class="img-responsive">
 
-        <div class="row">
-          <div class=" col-3 justify-content-center align-items-center"><img src="./assets/images/{{job.image}}" class="img-responsive"></div>
-            <div class="col-4" style="text-align: right">
-              <a routerLink="/project/{{job.id}}}"  >
-                <h2 class="card-title">{{job.company}}</h2>
-              </a>
-              <p class="card-title">Position: {{job.job_title}}</p>
-              <p class="card-title">Start Year: {{job.start_year}} - {{job.start_month}}</p>
-              <p class="card-title">End Year: {{job.end_year}} - {{job.end_month}} </p>
-            </div>
-
-          <div class="col md-4">
-            <p class="card-title">Jobs and Responsibilities:<br> {{job.job_description}}</p>
           </div>
-
-        </div>
-
+            <div class="col-8" >
+              <div class="row job-details">
+                <div class="col-4">
+                    <h2 class="card-title">{{job.company}}</h2>
+                  <p class="card-title">Position: {{job.job_title}}</p>
+                  <p class="card-title">Start Year: {{job.start_year}} - {{job.start_month}}</p>
+                  <p class="card-title">End Year: {{job.end_year}} - {{job.end_month}} </p>
+                </div>
+                <div class="col-8">
+                  <p class="card-title">Jobs and Responsibilities:<br> {{job.job_description}}</p>
+                </div>
+              </div>
+            </div>
       </div>
     </div>
+    </div>
 
-  </div>
-
-</div>
-
-  <div class="back-button"><a routerLink="/home">
-    <button mat-raised-button color="primary">Back</button>
-  </a>
   </div>
 
 <app-footer></app-footer>

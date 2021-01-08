@@ -1,23 +1,23 @@
 <app-header></app-header>
 <mat-card class="card shadow" >
   <div class="col">
-    <div class="card-header"><mat-card-title>
+    <div class="card-header">
+      <mat-card-title>
       <h1 style="text-align: center">Contact</h1>
     </mat-card-title></div><br>
     <form action="#">
-      Email: <input type="text" style="width: 250pt; border-radius: 3pt;" placeholder="example@exampl.com"><br><br>
-      Feedback: <br><textarea type="text" style="width: 350pt; height: 200pt;border-radius: 3pt;" placeholder="your feedback goes here."></textarea>
+      <label class="font-size">Email: </label> <input class="email_inpt font-size" type="text" placeholder="example@exampl.com"><br><br>
+      <label class="font-size">Feedback: </label> <br><textarea type="text" class="feedback_txtArea font-size" placeholder="your feedback goes here."></textarea>
     </form>
-    <!--  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
     <mat-card-content>
-      <p>
+      <p class="p-feed-back">
         Your feedback is very important for me. Please provide me some constructive feedback.
       </p>
     </mat-card-content>
     <mat-card-actions>
 <div class="row justify-content-center align-items-center">
   <button mat-raised-button color="primary">Submit</button>
-  <p style="width: 50pt"></p>
+  <p class="spacer"></p>
   <form method="get" action="/assets/resume/binod.doc">
     <button mat-raised-button color="primary" type="submit">Download</button>
   </form>

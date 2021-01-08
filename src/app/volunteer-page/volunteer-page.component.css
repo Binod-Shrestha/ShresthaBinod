@@ -1,19 +1,220 @@
-.card-job{
-  padding-left: 10px;
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+  .card-job{
+    padding-left: 10px;
+  }
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .img-responsive{
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+
+  }
+  .card{
+    margin-left: 200pt; margin-right: 200pt;
+  }
 }
-.back-button{
-  padding: 15px;
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  .card-job{
+    padding-left: 10px;
+  }
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .img-responsive{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    vertical-align: middle;
+
+  }
+  .card{
+    margin-left: 20pt; margin-right: 20pt;
+  }
+  .card-image{
+
+    justify-items: center;
+    align-content: center;
+
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .img-responsive{
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    vertical-align: middle;
+  }
+  .card{
+    margin-left: 10pt; margin-right: 10pt;
+  }
+  .card-image{
+    justify-items: center;
+    align-content: center;
+  }
+  .volunteer-details{
+    width: 100%;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .img-responsive{
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    vertical-align: middle;
+  }
+  .card{
+    margin-left: 10pt; margin-right: 10pt;
+  }
+  .card-image{
+    justify-items: center;
+    align-content: center;
+  }
+  .volunteer-details{
+    width: 100%;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .img-responsive{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    vertical-align: middle;
+  }
+  .card{
+    margin-left: 10pt; margin-right: 10pt;
+  }
+  .card-image{
+    justify-items: center;
+    align-content: center;
+  }
+  .volunteer-details{
+    width: 100%;
+  }
 
 }
-button{
-  width: 100px;
-  font-size: 18px;
-}
-.img-responsive{
-  width: 400px;
-  height: auto;
-  padding: 15px;
-  border-radius: 20px;
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .img-responsive{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    vertical-align: middle;
+  }
+  .card{
+    margin-left: 10pt; margin-right: 10pt;
+  }
+  .card-image{
+    justify-items: center;
+    align-content: center;
+  }
+  .volunteer-details{
+    width: 100%;
+    font-size: 8pt;
+  }
 
 }
-

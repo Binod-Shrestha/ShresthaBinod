@@ -1,60 +1,395 @@
-.jumbotron{
-background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
-  background-size: cover;
-  margin-top: 60px;
-  height: 790px;
-  z-index: -1;
 
-}
-.jumbotron h1{
-  color: red;
-  font-size: 25pt;
-}
-.jumbotron p{
-  color: white;
-  font-size: 15pt;
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+  .jumbotron{
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
+    background-size: cover;
+    margin-top: 60px;
+    height: 790px;
+    z-index: -1;
+
+  }
+  .jumbotron h1{
+    color: red;
+    font-size: 25pt;
+  }
+  .jumbotron p{
+    color: white;
+    font-size: 15pt;
+  }
+
+  button{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    width: 100%;
+    height: 50pt;
+    cursor: pointer;
+    font-size: 18pt;
+
+  }
+  .container{
+    max-width: 2000px;
+  }
+
+  .linkImage{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+  }
+  .card{
+    height: 400pt;
+    width: auto;
+  }
+  .profile{
+    background: rgba(255,255,255, 0.1);
+    color:white;
+  }
+  .img-border{
+    border: 2pt solid beige;
+  }
+  .btnReadMoreDiv{
+    padding-top: 200pt;
+
+  }
+  .btnReadMore:hover{
+    background: rgba(255,255,255, 0.4);
+
+  }
+  h2{
+    font-family:"Helvetica";
+    font-size: 20pt;
+    font-weight: bold;
+    color: #f59245;
+  }
+  p{
+    font-size:15pt;
+  }
+  ul > li{
+    font-size: 15pt;
+  }
 }
 
-button{
-  background-color: rgba(255,255,255,0.2);
-  color:white;
-  width: 100%;
-  height: 50pt;
-  cursor: pointer;
-  font-size: 18pt;
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
-}
-.container{
-  max-width: 2000px;
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  .jumbotron{
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
+    background-size: cover;
+    margin-top: 60px;
+    height: 790px;
+    z-index: -1;
+
+  }
+  .jumbotron h1{
+    color: red;
+    font-size: 25pt;
+  }
+  .jumbotron p{
+    color: white;
+    font-size: 15pt;
+  }
+
+  button{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    width: 100%;
+    height: 50pt;
+    cursor: pointer;
+    font-size: 18pt;
+
+  }
+  .container{
+    max-width: 2000px;
+  }
+
+  .linkImage{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+  }
+  .card{
+    height: 350pt;
+    width: auto;
+  }
+  .profile{
+    background: rgba(255,255,255, 0.1);
+    color:white;
+  }
+  .img-border{
+    border: 2pt solid beige;
+  }
+  .btnReadMoreDiv{
+    padding-top: 200pt;
+
+  }
+  .btnReadMore:hover{
+    background: rgba(255,255,255, 0.4);
+
+  }
+  h2{
+    font-family:"Helvetica";
+    font-size: 20pt;
+    font-weight: bold;
+    color: #f59245;
+  }
 }
 
-.linkImage{
-  width: 30px;
-  height: auto;
-  margin: 10px;
-}
-.card{
-  height: 350pt;
-  width: auto;
-}
-.profile{
-  background: rgba(255,255,255, 0.1);
-  color:white;
-}
-.img-border{
-  border: 2pt solid beige;
-}
-.btnReadMoreDiv{
-  padding-top: 200pt;
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
-}
-.btnReadMore:hover{
-  background: rgba(255,255,255, 0.4);
+@media (min-width: 768px) and (max-width: 1024px) {
 
+  /* CSS */
+  .jumbotron{
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
+    background-size: cover;
+    margin-top: 60px;
+    height: 790px;
+    z-index: -1;
+
+  }
+
+  button{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    width: 100%;
+    height: 50pt;
+    cursor: pointer;
+    font-size: 15pt;
+
+  }
+  .container{
+    max-width: 2000px;
+  }
+
+  .linkImage{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+  }
+  .card{
+    height: 300pt;
+    width: auto;
+  }
+  .profile{
+    background: rgba(255,255,255, 0.1);
+    color:white;
+  }
+  .img-border{
+    border: 2pt solid beige;
+  }
+  .btnReadMoreDiv{
+    padding-top: 200pt;
+
+  }
+  .btnReadMore:hover{
+    background: rgba(255,255,255, 0.4);
+
+  }
+  h2{
+    font-family:"Helvetica";
+    font-size: 15pt;
+    font-weight: bold;
+    color: #f59245;
+  }
 }
-h2{
-  font-family:"Helvetica";
-  font-size: 20pt;
-  font-weight: bold;
-  color: #f59245;
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+  .jumbotron{
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
+    background-size: cover;
+    margin-top: 60px;
+    height: 790px;
+    z-index: -1;
+
+  }
+
+  button{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    width: 100%;
+    height: 50pt;
+    cursor: pointer;
+    font-size: 15pt;
+
+  }
+  .container{
+    max-width: 2000px;
+  }
+
+  .linkImage{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+  }
+  .card{
+    height: 300pt;
+    width: auto;
+  }
+  .profile{
+    background: rgba(255,255,255, 0.1);
+    color:white;
+  }
+  .img-border{
+    border: 2pt solid beige;
+  }
+  .btnReadMoreDiv{
+    padding-top: 200pt;
+
+  }
+  .btnReadMore:hover{
+    background: rgba(255,255,255, 0.4);
+
+  }
+  h2{
+    font-family:"Helvetica";
+    font-size: 15pt;
+    font-weight: bold;
+    color: #f59245;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .jumbotron{
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
+    background-size: cover;
+    margin-top: 60px;
+    height: 790px;
+    z-index: -1;
+
+  }
+
+  button{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    width: 100%;
+    height: 50pt;
+    cursor: pointer;
+    font-size: 15pt;
+
+  }
+  .container{
+    max-width: 2000px;
+  }
+
+  .linkImage{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+  }
+  .card{
+    height: 300pt;
+    width: auto;
+  }
+  .profile{
+    background: rgba(255,255,255, 0.1);
+    color:white;
+  }
+  .img-border{
+    border: 2pt solid beige;
+  }
+  .btnReadMoreDiv{
+    padding-top: 200pt;
+
+  }
+  .btnReadMore:hover{
+    background: rgba(255,255,255, 0.4);
+
+  }
+  h2{
+    font-family:"Helvetica";
+    font-size: 15pt;
+    font-weight: bold;
+    color: #f59245;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .jumbotron{
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
+    background-size: cover;
+    margin-top: 60px;
+    height: 790px;
+    z-index: -1;
+
+  }
+
+  button{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    width: 100%;
+    height: 50pt;
+    cursor: pointer;
+    font-size: 15pt;
+
+  }
+  .container{
+    max-width: 2000px;
+  }
+
+  .linkImage{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+  }
+  .card{
+    height: 300pt;
+    width: auto;
+  }
+  .profile{
+    background: rgba(255,255,255, 0.1);
+    color:white;
+  }
+  .img-border{
+    border: 2pt solid beige;
+  }
+  .btnReadMoreDiv{
+    padding-top: 200pt;
+
+  }
+  .btnReadMore:hover{
+    background: rgba(255,255,255, 0.4);
+
+  }
+  h2{
+    font-family:"Helvetica";
+    font-size: 15pt;
+    font-weight: bold;
+    color: #f59245;
+  }
 }

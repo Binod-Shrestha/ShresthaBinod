@@ -1,7 +1,7 @@
 <app-header></app-header>
 
-<div class="row" style="margin-top: 100pt; margin-left: 50pt;">
-  <div class="card shadow my_card" routerLink="/course/{{course.id}}" style="width: 20rem; margin: 15pt;" *ngFor="let course of courses">
+<div class="row card-row" >
+  <div class="card shadow my_card" routerLink="/course/{{course.id}}"  *ngFor="let course of courses">
 
     <div class="inner">
       <img class="card-img-top course-img rounded" src="./assets/images/{{course.image}}" alt="Card image cap">
@@ -15,8 +15,5 @@
     </div>
   </div>
 </div>
-<div class="back-button"><a routerLink="/home">
-  <button mat-raised-button color="primary">Back</button>
-</a>
-</div>
+
 <app-footer></app-footer>

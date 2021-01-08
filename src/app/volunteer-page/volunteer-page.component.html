@@ -1,20 +1,20 @@
 <app-header></app-header>
-
 <div style="margin-top: 70px">
-  <div>
-    <div class="col">
-      <div class="card mb-3" style="margin-left: 200pt; margin-right: 200pt" *ngFor="let volunteer of volunteers">
-        <div class="card-body">
-          <div class="row">
-            <div class=" col-3 justify-content-center align-items-center"><img src="./assets/images/{{volunteer.image}}" class="img-responsive"></div>
-            <div class="col-4" style="text-align: right">
-              <a routerLink="/project/{{volunteer.id}}}"  >
-                <h2 class="card-title">{{volunteer.organization}}</h2>
-              </a>
-              <p class="card-title">Start Year: {{volunteer.start_year}} - {{volunteer.start_month}}</p>
+  <div class="card mb-3"  *ngFor="let volunteer of volunteers">
+    <div class="card-body">
+      <div class="row card-image">
+        <div class="col-4 ">
+          <img src="./assets/images/{{volunteer.image}}" class="img-responsive">
+
+        </div>
+        <div class="col-8" >
+          <div class="row volunteer-details">
+            <div class="col-4">
+              <h2 class="card-title">{{volunteer.organization}}</h2>
+              <p class="card-title">Start Year: {{volunteer.start_year}}-{{volunteer.start_month}}</p>
               <p class="card-title">End Year: {{volunteer.end_year}} - {{volunteer.end_month}} </p>
             </div>
-            <div class="col md-4">
+            <div class="col-8">
               <p class="card-title">Jobs and Responsibilities:<br> {{volunteer.description}}</p>
             </div>
           </div>
@@ -23,8 +23,5 @@
     </div>
   </div>
 
-  <div class="back-button"><a routerLink="/home">
-    <button mat-raised-button color="primary">Back</button>
-  </a>
-  </div>
+</div>
   <app-footer></app-footer>

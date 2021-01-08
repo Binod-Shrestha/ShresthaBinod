@@ -1,22 +1,210 @@
-.card{
-  padding-left: 10px;
-  width: 350px;
-  height: 400px;
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+  h1{
+    font-family:  Rockwell;
+  }
+  .card{
+    padding-left: 10px;
+    width: 350px;
+    height: 400px;
+
+  }
+
+  button{
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .imgSize{
+    width: 100px;
+    height: auto;
+    border : 1pt solid #ffc209;
+
+
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+  .div-img-style{
+    height: 100px;
+  }
+  .div-description-style{
+    height: 50px;
+  }
+  .spacer{
+    height: 25pt;
+  }
 
 }
-.back-button{
-  padding: 15px;
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  .card{
+    padding-left: 10px;
+    width: 300px;
+    height: 400px;
+
+  }
+  .back-button{
+    padding: 15px;
+  }
+  button{
+    width: 180px;
+    font-size: 18px;
+  }
+  .imgSize{
+    width: 100px;
+    height: auto;
+
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+  .div-img-style{
+    height: 100px;
+  }
+  .div-description-style{
+    height: 150px;
+  }
 }
-button{
-  width: 100px;
-  font-size: 18px;
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .card{
+    padding-left: 10px;
+    width: 320px;
+    height: 400px;
+
+  }
+  .back-button{
+    padding: 15px;
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .imgSize{
+    width: 100px;
+    height: auto;
+
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+  .div-img-style{
+    height: 100px;
+  }
+  .div-description-style{
+    height: 150px;
+  }
 }
-.imgSize{
-width: 100px;
-  height: auto;
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+  .card{
+    padding-left: 10px;
+    width: 320px;
+    height: 400px;
+
+  }
+  .back-button{
+    padding: 15px;
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .imgSize{
+    width: 100px;
+    height: auto;
+
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+  .div-img-style{
+    height: 100px;
+  }
+  .div-description-style{
+    height: 150px;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
 
 }
-.card:hover{
-  cursor: pointer;
-  background-color: #e7e7e7;
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .card{
+    padding-left: 5px;
+    width: 290px;
+    height: 350px;
+
+  }
+  .back-button{
+    padding: 15px;
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .imgSize{
+    width: 50px;
+    height: auto;
+
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+  .div-img-style{
+    height: 50px;
+  }
+  .div-description-style{
+    height: 150px;
+  }
+
 }
