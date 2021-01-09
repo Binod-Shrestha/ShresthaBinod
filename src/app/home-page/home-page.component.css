@@ -32,6 +32,8 @@
     height: 50pt;
     cursor: pointer;
     font-size: 18pt;
+    font-family: "South East";
+    color: yellow;
 
   }
   .container{
@@ -70,9 +72,11 @@
   }
   p{
     font-size:15pt;
+    line-height: normal;
   }
   ul > li{
     font-size: 15pt;
+    line-height: normal;
   }
 }
 

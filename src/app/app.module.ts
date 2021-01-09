@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { ProjectPageComponent } from './project-page/project-page.component';
 import { CoursePageComponent } from './course-page/course-page.component';
@@ -18,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule} from './material/material.module';
 import {FormsModule} from '@angular/forms';
 import {PortfolioService} from './portfolio.service';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -41,6 +43,8 @@ import {PortfolioService} from './portfolio.service';
         BrowserAnimationsModule,
         MaterialModule,
         FormsModule,
+      HttpClientModule,
+      ReactiveFormsModule
 
     ],
   providers: [PortfolioService],

@@ -4,46 +4,61 @@
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1501px) {
+
+
   h1{
     font-family: "South East";
   }
   .card{
-    margin-top: 150pt;
-    margin-left: 400pt;
-    margin-right: 400pt;
+    margin-top: 100pt;
     padding: 20pt;
     height: 500pt;
-    margin-bottom: 100pt;
+    width: 500pt;
+    margin-bottom: 30pt;
     border-radius: 10pt;
     background-color: #f3f3f3;
+    font-size: 15pt;
 
   }
-  .email_inpt{
+  .input-width{
     width: 350pt;
-    border-radius: 3pt;
-    padding-left: 10pt;
+  }
+  .hidden {
+    display: none
+  }
+  .visible {
+    display: block
+  }
+  .center-text {
+    text-align: center
+  }
+
+  input,
+  button {
+    margin-bottom: 10px;
+    padding: 5pt;
+    font-size: 15pt;
+  }
+  button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 16px;
+    transition: 0.4s;
+    width: 50%;
 
   }
-  .feedback_txtArea{
-    width: 550pt;
-    height: 200pt;
-    border-radius: 3pt;
-    padding-left: 10pt;
+  .row-button{
+    text-align: center;
   }
-  .p-feed-back{
+  button:hover:enabled{
+    color: white;
+    background-color: dodgerblue;
+  }
+  .text-area{
+    height: 180pt;
     width: 450pt;
-    font-size: 14pt;
-  }
-  .spacer{
-    width: 50pt;
-  }
-  button{
-    width: 200pt;
-    height: 40pt;
-    font-size: 15pt;
-  }
-  .font-size{
-    font-size: 15pt;
   }
 }
 
@@ -54,39 +69,61 @@
     font-family: "South East";
   }
   .card{
-    margin-top: 150pt;
-    margin-left: 200pt;
-    margin-right: 200pt;
+    margin-top: 100pt;
     padding: 20pt;
     height: 500pt;
-    margin-bottom: 100pt;
+    width: 500pt;
+    margin-bottom: 30pt;
     border-radius: 10pt;
     background-color: #f3f3f3;
-
-  }
-.email_inpt{
-  width: 350pt;
-  border-radius: 3pt;
-  padding-left: 10pt;
-
-}
-.feedback_txtArea{
-  width: 500pt;
-  height: 200pt;
-  border-radius: 3pt;
-  padding-left: 10pt;
-}
-  .p-feed-back{
-    width: 450pt;
-    font-size: 14pt;
-  }
-  .spacer{
-    width: 50pt;
-  }
-  button{
-    width: 200pt;
-    height: 40pt;
     font-size: 15pt;
+
+  }
+  .input-width{
+    width: 350pt;
+  }
+  .hidden {
+    display: none
+  }
+  .visible {
+    display: block
+  }
+  .center-text {
+    text-align: center
+  }
+  form.contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+  }
+  input,
+  button {
+    margin-bottom: 10px;
+    padding: 5pt;
+    font-size: 15pt;
+  }
+  button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 16px;
+    transition: 0.4s;
+    width: 50%;
+    margin-top: 10px;
+
+  }
+  .row-button{
+    text-align: center;
+  }
+  button:hover:enabled{
+    color: white;
+    background-color: dodgerblue;
+  }
+  .text-area{
+    height: 180pt;
+    width: 450pt;
   }
 }
 
@@ -102,31 +139,61 @@
     font-family: "South East";
   }
   .card{
-    margin-top: 150pt;
-    margin-left: 150pt;
-    margin-right: 150pt;
+    margin-top: 100pt;
     padding: 20pt;
-    height: 450pt;
-    margin-bottom: 80pt;
+    height: 500pt;
+    width: 500pt;
+    margin-bottom: 30pt;
     border-radius: 10pt;
     background-color: #f3f3f3;
+    font-size: 15pt;
 
   }
-  .email_inpt{
-    width: 250pt;
-    border-radius: 3pt;
+  .input-width{
+    width: 350pt;
+  }
+  .hidden {
+    display: none
+  }
+  .visible {
+    display: block
+  }
+  .center-text {
+    text-align: center
+  }
+  form.contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-top: 30px;
+  }
+  input,
+  button {
+    margin-bottom: 10px;
+    padding: 5pt;
+    font-size: 15pt;
+  }
+  button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 16px;
+    transition: 0.4s;
+    width: 50%;
+    margin-top: 10px;
 
   }
-  .feedback_txtArea{
-    width: 400pt;
+  .row-button{
+    text-align: center;
+  }
+  button:hover:enabled{
+    color: white;
+    background-color: dodgerblue;
+  }
+  .text-area{
     height: 200pt;
-    border-radius: 3pt;
-  }
-  .p-feed-back{
-    width: 400pt;
-  }
-  .spacer{
-    width: 50pt;
+    width: 450pt;
   }
 }
 
