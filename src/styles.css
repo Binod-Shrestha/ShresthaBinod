@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "South East";
 
+  src: local("South East"), url(./assets/fonts/south-east/South-East.ttf) format("truetype");
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

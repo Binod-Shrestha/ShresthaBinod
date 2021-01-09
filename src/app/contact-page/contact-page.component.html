@@ -19,7 +19,7 @@
             <textarea [formControl]="message" maxlength="256" class="text-area input-width" placeholder="I'm interested in..." required></textarea>
             <div class="row-button">
               <button mat-raised-button color="primary" [disabled]="isLoading" class="submit" type="submit">Submit</button>
-              <input [formControl]="honeypot" class="hidden" type="text" />
+<!--              <input [formControl]="honeypot" class="hidden" type="text" />-->
             </div>
 
             <div [ngClass]="!submitted? 'hidden' : 'visible'" class="center-text">

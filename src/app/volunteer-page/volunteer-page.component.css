@@ -10,7 +10,11 @@
   /* CSS */
   h1{
     text-align: center;
-    font-family: "South East";
+    text-align: center;
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom: 40pt;
   }
   .card-job{
     padding-left: 10px;
@@ -45,7 +49,11 @@
   /* CSS */
   h1{
     text-align: center;
-    font-family: "South East";
+    text-align: center;
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom: 40pt;
   }
   .card-job{
     padding-left: 10px;

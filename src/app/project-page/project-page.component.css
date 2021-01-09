@@ -9,11 +9,15 @@
   /* CSS */
   h1{
     font-family: "South East" ;
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom: 40pt;
   }
   .card{
     padding-left: 10px;
     width: 350px;
     height: 400px;
+
 
   }
 
@@ -55,6 +59,9 @@
   /* CSS */
   h1{
     font-family: "South East" ;
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom: 40pt;
   }
   .card{
     padding-left: 10px;

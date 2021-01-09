@@ -7,7 +7,11 @@
 
 
   h1{
-    font-family: "South East";
+    text-align: center;
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 25pt;
+
   }
   .card{
     margin-top: 100pt;
@@ -66,7 +70,10 @@
 
   /* CSS */
   h1{
-    font-family: "South East";
+    text-align: center;
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 25pt;
   }
   .card{
     margin-top: 100pt;
