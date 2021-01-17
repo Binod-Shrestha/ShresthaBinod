@@ -458,11 +458,15 @@
   }
   .mobile-row{
     text-align: center;
+    width: 80%;
   }
   h2{
     font-family:"Helvetica";
     font-size: 10pt;
     font-weight: bold;
     color: #f59245;
+  }
+  .style-highlights{
+    width: 95%;
   }
 }

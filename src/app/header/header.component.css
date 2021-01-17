@@ -375,7 +375,7 @@
 
   /* CSS */
 .web-title{
-  font-size: 5pt;
+  font-size: 8pt;
 
 }
   .spacer-img-label{
@@ -388,7 +388,7 @@
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 7pt;
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -409,13 +409,11 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 2px 1px;
+    padding: 1px 2px;
     text-decoration: none;
 
   }
-  .spacer{
 
-  }
 
   li a:hover {
     background-color: #f3cb08;
