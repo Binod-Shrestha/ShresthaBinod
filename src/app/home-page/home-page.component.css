@@ -12,7 +12,7 @@
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
     background-size: cover;
     margin-top: 10px;
-    height:100%;
+    height:90%;
     z-index: -1;
 
   }
@@ -25,7 +25,7 @@
   }
   .card-row{
     justify-content: center;
-    margin-top: 150pt;
+    margin-top: 100pt;
   }
   .row-job-title{
     font-size: 15pt;
@@ -52,7 +52,7 @@
   }
 
   button{
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
     color:white;
     width: 100%;
     height: 45pt;
@@ -61,6 +61,7 @@
     font-family: "South East";
     color: #f59245;
     margin-top: 150pt;
+    border-radius: 5pt;
 
   }
 
@@ -85,6 +86,8 @@
 
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
+    color: #3afd1b;
+
   }
   .mobile-row{
     text-align: center;
@@ -174,6 +177,8 @@
 
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
+    color: #3afd1b;
+
   }
   .mobile-row{
     text-align: center;
@@ -264,6 +269,7 @@
 
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
+    color: #3afd1b;
   }
   .mobile-row{
     text-align: center;
@@ -359,6 +365,7 @@
 
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
+    color: #3afd1b;
   }
   .mobile-row{
     text-align: center;
@@ -447,6 +454,7 @@
 
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
+    color: #3afd1b;
   }
   .mobile-row{
     text-align: center;
