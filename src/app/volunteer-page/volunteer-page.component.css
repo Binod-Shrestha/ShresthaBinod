@@ -251,8 +251,43 @@
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+@media (min-width: 411px) and (max-width: 480px) {
+  .work-title-mt{
+    margin-top: 50pt;
+  }
+  h1{
+    text-align: center;
+    font-family: "South East";
+    font-size: 10pt;
+  }
 
-@media (min-width: 320px) and (max-width: 480px) {
+  .img-responsive{
+    width: 220px;
+    height: auto;
+    display: block;
+    padding-top: 15pt;
+  }
+  .card{
+    margin-left: 45pt; margin-right: 5pt;
+    height: 250pt;
+    width: 217pt;
+
+  }
+
+  .div-company-width{
+    width: 170pt;
+    font-size: 10pt;
+    text-align: center;
+    line-height: 8pt;
+  }
+  .div-hidden{
+    visibility: hidden;
+    display: none;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 410px) {
 
   /* CSS */
   .work-title-mt{
