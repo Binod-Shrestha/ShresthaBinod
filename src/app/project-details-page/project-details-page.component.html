@@ -1,8 +1,7 @@
 <app-header></app-header>
 
-<div class="row " style="margin-top: 100pt; margin: 100pt;">
-
-  <div class="col-md-5"><img src="./assets/images/{{project.image}}" class="img-responsive" alt="image"></div>
+<div class="row" [ngClass]="'style-margin-project'" >
+  <div class="col-md-5"><img src="./assets/images/{{project.image}}" [ngClass]="'img-responsive'" alt="image"></div>
   <div class="col-md-5 justify-content-center align-items-center">
     <div>
       <h1>{{project.name}}</h1>

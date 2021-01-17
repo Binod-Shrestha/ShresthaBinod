@@ -1,22 +1,27 @@
 <app-header></app-header>
-<div style="margin-top: 100px">
-  <div><h1>Volunteers</h1></div>
+<div [ngClass]="'work-title-mt'">
+  <div><h1>Volunteers/Hackathons</h1></div>
   <div class="card mb-3"  *ngFor="let volunteer of volunteers">
     <div class="card-body">
       <div class="row card-image">
-        <div class="col-4 ">
+        <div class="col-4" [ngClass]="'div-hidden'">
           <img src="./assets/images/{{volunteer.image}}" class="img-responsive">
-
         </div>
         <div class="col-8" >
           <div class="row volunteer-details">
-            <div class="col-4">
-              <h2 class="card-title">{{volunteer.organization}}</h2>
-              <p class="card-title">Start Year: {{volunteer.start_year}}-{{volunteer.start_month}}</p>
-              <p class="card-title">End Year: {{volunteer.end_year}} - {{volunteer.end_month}} </p>
+            <div class="col-4" >
+              <div [ngClass]="'div-company-width'">
+                <div [ngClass]="'div-hidden2'">
+                  <img src="./assets/images/{{volunteer.image}}" class="img-responsive">
+                </div>
+                <h2 class="card-title">{{volunteer.organization}}</h2>
+                <p class="card-title">Start Year: {{volunteer.start_year}}-{{volunteer.start_month}}</p>
+                <p class="card-title">End Year: {{volunteer.end_year}} - {{volunteer.end_month}} </p>
+              </div>
+
             </div>
-            <div class="col-8">
-              <p class="card-title">Jobs and Responsibilities:<br> {{volunteer.description}}</p>
+            <div class="col-8" [ngClass]="'div-hidden'">
+              <span class="card-title"><h2>Jobs and Responsibilities:</h2>{{volunteer.description}}</span>
             </div>
           </div>
         </div>

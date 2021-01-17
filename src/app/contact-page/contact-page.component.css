@@ -214,8 +214,9 @@
   /* CSS */
   .card{
     margin-top: 80pt;
-    margin-left: 30pt;
+    margin-left: 100pt;
     margin-right: 30pt;
+    width: 320pt;
     padding: 20pt;
     height: 450pt;
     margin-bottom: 50pt;
@@ -223,15 +224,15 @@
     background-color: #f3f3f3;
 
   }
-  .email_inpt {
-    width: 250pt;
+  .input-width {
+    width: 280pt;
     border-radius: 3pt;
     padding-left: 5pt;
 
   }
 
-  .feedback_txtArea {
-    width: 450pt;
+  .text-area {
+
     height: 200pt;
     border-radius: 3pt;
     padding-left: 5pt;
@@ -242,16 +243,21 @@
   .spacer{
     width: 50pt;
   }
-}
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
+  button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 16px;
+    transition: 0.4s;
+    width: 100%;
+    margin-top: 10px;
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  /* CSS */
-
+  }
+  .div-hidden{
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /*
@@ -264,29 +270,26 @@
   /* CSS */
   .card{
     margin-top: 50pt;
-    margin-left: 20pt;
-    margin-right: 20pt;
+    margin-left: 13pt;
+    margin-right: 10pt;
     padding: 10pt;
     height: 300pt;
+    width: 310pt;
     margin-bottom: 20pt;
     border-radius: 10pt;
     background-color: #f3f3f3;
 
   }
-  .email_inpt {
-    width: 130pt;
+  .input-width {
+    width: 280pt;
     border-radius: 3pt;
     padding-left: 5pt;
   }
 
-  .feedback_txtArea {
-    width: 270pt;
-    height: 80pt;
+  .text-area {
+    height: 100pt;
     border-radius: 3pt;
     padding-left: 5pt;
-  }
-  .p-feed-back{
-    width: 270pt;
   }
   .spacer{
     width: 20pt;
@@ -295,11 +298,25 @@
     height: 20pt;
   }
   .card-header h1{
-    font-size: 10pt;
+    font-size: 15pt;
     text-align: center;
     margin-top: -10pt;
   }
+  button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 16px;
+    transition: 0.4s;
+    width: 100%;
+    margin-top: 10px;
 
+  }
+  .div-hidden{
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /*
@@ -312,32 +329,46 @@
   /* CSS */
   .card{
     margin-top: 80pt;
-    margin-left: 20pt;
-    margin-right: 20pt;
-    padding: 10pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    width: 208pt;
+    padding: 8pt;
     height: 400pt;
     margin-bottom: 20pt;
     border-radius: 10pt;
     background-color: #f3f3f3;
 
   }
-  .email_inpt {
-    width: 130pt;
+  .input-width {
+    width: 180pt;
     border-radius: 3pt;
     padding-left: 5pt;
-
   }
-
   .feedback_txtArea {
-    width: 150pt;
+    width: 200pt;
     height: 100pt;
     border-radius: 3pt;
     padding-left: 5pt;
   }
-  .p-feed-back{
-    width: 130pt;
+  .text-area{
+    height: 130pt;
   }
   .spacer{
     width: 10pt;
+  }
+  .div-hidden{
+    visibility: hidden;
+    display: none;
+  }
+  button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 16px;
+    transition: 0.4s;
+    width: 100%;
+    margin-top: 30px;
+
   }
 }

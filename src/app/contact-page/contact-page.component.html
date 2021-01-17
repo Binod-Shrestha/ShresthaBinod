@@ -2,10 +2,10 @@
 
 <div class="container">
   <div class="row ">
-    <div class="col-2"></div>
+    <div class="col-2" [ngClass]="'div-hidden'"></div>
       <div class="col-8" >
         <form class="contact" [formGroup]="form" method="post" (ngSubmit)="onSubmit()">
-          <mat-card class="card shadow ml-4" >
+          <mat-card class="card shadow" >
             <div class="card-header">
               <mat-card-title>
                 <h1 style="text-align: center">Contact</h1>

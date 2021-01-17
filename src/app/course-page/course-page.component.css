@@ -11,10 +11,10 @@
     font-family: "South East" ;
     font-weight: bold;
     font-size: 30pt;
-    margin-bottom: 40pt;
+    margin-bottom: 30pt;
   }
 .card-row{
-  margin-top: 80pt; margin-left: 50pt;
+  margin-top: 80pt; margin-left: 4%;
 }
   .inner{
     overflow: hidden;
@@ -50,12 +50,15 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   /* CSS */
+  .card-row{
+    margin-top: 80pt; margin-left: 8%;
+  }
   h1{
     text-align: center;
     font-family: "South East" ;
     font-weight: bold;
-    font-size: 30pt;
-    margin-bottom: 40pt;
+    font-size: 25pt;
+    margin-bottom: 20pt;
   }
 
   .back-button{
@@ -101,9 +104,19 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
+  .style-alignment{
+    margin-left: -75pt;
+
+  }
+  .card-row{
+    margin-top: 80pt; margin-left: 5%;
+  }
   h1{
     text-align: center;
-    font-family: "South East";
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 15pt;
   }
 
   .back-button{
@@ -132,15 +145,13 @@
   }
   .my_card{
     cursor: pointer;
-    width: 13rem;
-    margin: 15pt;
+    width: 18rem;
+    margin: 10pt;
   }
   .my_card:hover{
     background-color: #f1f1f1;
   }
-  .card-row{
-    margin-top: 50pt; margin-left: 8pt;
-  }
+
 }
 
 /*
@@ -151,10 +162,17 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   /* CSS */
+  .card-row{
+    margin-top: 80pt; margin-left: 50pt;
+  }
   h1{
     text-align: center;
-    font-family: "South East";
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-bottom: 20pt;
   }
+
   .back-button{
     padding: 15px;
 
@@ -181,15 +199,14 @@
   }
   .my_card{
     cursor: pointer;
-    width: 13rem;
-    margin: 15pt;
+    width: 15rem;
+    margin: 10pt;
   }
   .my_card:hover{
     background-color: #f1f1f1;
   }
-  .card-row{
-    margin-top: 50pt; margin-left: 8pt;
-  }
+
+
 }
 
 /*
@@ -200,10 +217,22 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   /* CSS */
+  /* CSS */
+  .style-alignment{
+    margin-left: -75pt;
+
+  }
+  .card-row{
+    margin-top: 60pt; margin-left: 6%;
+  }
   h1{
     text-align: center;
-    font-family: "South East";
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 10pt;
   }
+
   .back-button{
     padding: 15px;
 
@@ -231,13 +260,10 @@
   .my_card{
     cursor: pointer;
     width: 25rem;
-    margin: 15pt;
+    margin: 10pt;
   }
   .my_card:hover{
     background-color: #f1f1f1;
-  }
-  .card-row{
-    margin-top: 50pt; margin-left: 18pt;
   }
 }
 
@@ -249,5 +275,50 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
   /* CSS */
+  .style-alignment{
+    margin-left: -25pt;
+  }
+  .card-row{
+    margin-top: 50pt;
+  }
+  h1{
+    text-align: center;
+    font-family: "South East" ;
+    font-weight: bold;
+    font-size: 15pt;
 
+  }
+
+  .back-button{
+    padding: 15px;
+
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+
+  .inner{
+    overflow: hidden;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+  .course-img{
+    width: 100%;
+    height: auto;
+  }
+  .my_card{
+    cursor: pointer;
+    width: 25rem;
+    margin: 10pt;
+  }
+  .my_card:hover{
+    background-color: #f1f1f1;
+  }
 }

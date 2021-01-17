@@ -2,28 +2,25 @@
 <div class="jumbotron">
   <div class="row  justify-content-center align-items-center">
     <div class="col-md-4"></div>
-    <div class="col-md-4" style="height: 500pt">
+    <div class="col-md-4 mobile-row">
       <div class="btnReadMoreDiv">
-          <button (click)="flipToFront()" class="btnReadMore" mat-raised-button>Know More About Me</button>
+          <button (click)="displayMore()" class="btnReadMore" >Know More About Me</button>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="row justify-content-end">
-        <div class="">
+    <div class="col-md-4 mobile-row">
+      <div class="row " [ngClass]="'card-row'">
           <div class="card profile ">
-            <div class="front">
               <div class="card-body">
-                <div class=" row justify-content-center">
-                  <img alt="binod" class="img-fluid img-border rounded-circle w-50 mb-3"
-                       src="/assets/images/binodImg.png">
+                <div [ngClass]="'div-profile-image'">
+                  <img alt="binod" [ngClass]="'circular-image'" src="/assets/images/binodImg.png">
                 </div>
-                <div class=" row  justify-content-center align-items-center">
+                <div [ngClass]="'style-div-name'">
                   <h2>Binod Shrestha</h2>
                 </div>
-                <div class=" row  justify-content-center ">
-                  <h4>Asping Software Developer</h4>
+                <div [ngClass]="'row-job-title'">
+                  <p>Aspiring Full Stack Software Developer</p>
                 </div>
-                <div class=" row justify-content-center mt-5 ">
+                <div [ngClass]="'style-div-link'">
                   <a href="https://github.com/Binod-Shrestha" target="_blank"><i class="fa fa-github fa-3x mr-4 fa-inverse "  aria-hidden="true"></i></a>
                   <a href="https://www.linkedin.com/in/binodsresta/" target="_blank"><i class="fa fa-linkedin-square fa-3x fa-inverse mr-4" aria-hidden="true"></i></a>
                   <a href="https://studio.youtube.com/channel/UC7NxTWwvpwimRNmdi5XFVAA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_blank"><i class="fa fa-youtube fa-3x fa-inverse" aria-hidden="true"></i></a>
@@ -31,28 +28,25 @@
               </div>
               <div class="d-flex flex-row justify-content-center">
               </div>
-            </div>
+
           </div>
-        </div>
       </div>
     </div>
   </div>
 </div>
 <div class="row">
   <div class="col-md-3"></div>
-  <div class="col-md-6">
-
+  <div class="col-md-6" >
     <ul *ngIf="showCard"><i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
-      <p class="custom-font"> Hello, My name is Binod Shrestha. I am an aspiring full stack developer.
-        I went to Sheridan College to complete Software Development and Network Engineering course.I did my
-        three coops at Canada's top tech companies: Royal Bank of Canada and PointClickCare.During my school and coop
-        tenure I had great opportunities to learn different trending technologies as technical skills and some of essentials
-        soft skills which are widely practised in industries. I am passionate about coding and my core interests are in web
-        as well as mobile appliation development. I have had hands-on in both the platform during my work term.I want to
+      <p > Hello, My name is Binod Shrestha. I am an aspiring <b>Software Developer</b>.
+        I graduated from Sheridan College in Software Development and Network Engineering course.I did my
+        three coops at Canada's top tech companies: <b>Royal Bank of Canada</b> and <b>PointClickCare</b>.While I was at school and
+        coop, I had great opportunities to have hands-on experience in both front-end and back-end development in building web application as well as
+        mobile application(iOS and Android). I am passionate about learning to code.All in all, I want to
         pursue my career as full stack developer in the future.
       </p>
-      <h2>Hightlights of my Skills</h2>
-      <li class="custom-font">Solid understanding of mobile and web application using Java, Spring Boot, SQL, JavaScript, Swift, Kotlin, Dart, Angular (UI), React (UI), Dart, MongoDB</li>
+      <h2>Highlights</h2>
+      <li [ngStyle]="'div-font-medium'">Solid understanding of mobile and web application using Java, Spring Boot, SQL, JavaScript, Swift, Kotlin, Dart, Angular (UI), React (UI), Dart, MongoDB</li>
       <li>Experienced in writing clean code, testing, debugging, modifying existing software program</li>
       <li>Experienced in TDD, Pair Programming and Agile Methodology using SCRUM</li>
       <li>Proficient in source code management (GIT)</li>

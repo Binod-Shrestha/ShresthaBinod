@@ -57,6 +57,9 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   /* CSS */
+  .style-project-name{
+    margin-top: 15pt;
+  }
   h1{
     font-family: "South East" ;
     font-weight: bold;
@@ -89,7 +92,7 @@
     height: 100px;
   }
   .div-description-style{
-    height: 150px;
+    height: 80px;
   }
 }
 
@@ -101,6 +104,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
+  .style-project-name{
+    margin-top: 15pt;
+  }
   h1{
     font-family: "South East" ;
   }
@@ -130,59 +136,52 @@
     height: 100px;
   }
   .div-description-style{
-    height: 150px;
+    height: 60px;
   }
 }
 
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  /* CSS */
-  h1{
-    font-family: "South East" ;
-  }
-  .card{
-    padding-left: 10px;
-    width: 320px;
-    height: 400px;
-
-  }
-  .back-button{
-    padding: 15px;
-  }
-  button{
-    width: 100px;
-    font-size: 18px;
-  }
-  .imgSize{
-    width: 100px;
-    height: auto;
-
-  }
-  .card:hover{
-    cursor: pointer;
-    background-color: #e7e7e7;
-  }
-  .div-img-style{
-    height: 100px;
-  }
-  .div-description-style{
-    height: 150px;
-  }
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media (min-width: 481px) and (max-width: 767px) {
 
   /* CSS */
+  .style-project-name{
+    margin-top: 15pt;
+  }
+  .style-card{
+    margin-left: 45pt;
+  }
+  h1{
+    font-family: "South East" ;
+  }
+  .card{
+    padding-left: 8px;
+    width: 320px;
+    height: 400px;
+
+  }
+  .back-button{
+    padding: 15px;
+  }
+  button{
+    width: 100px;
+    font-size: 18px;
+  }
+  .imgSize{
+    width: 100px;
+    height: auto;
+
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+  .div-img-style{
+    height: 100px;
+  }
+  .div-description-style{
+    height: 60px;
+  }
 
 }
 
@@ -194,6 +193,13 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
   /* CSS */
+  .style-project-name{
+    margin-top: 15pt;
+  }
+
+  h1{
+    font-family: "South East" ;
+  }
   .card{
     padding-left: 5px;
     width: 290px;
@@ -208,7 +214,7 @@
     font-size: 18px;
   }
   .imgSize{
-    width: 50px;
+    width: 100px;
     height: auto;
 
   }
@@ -217,10 +223,10 @@
     background-color: #e7e7e7;
   }
   .div-img-style{
-    height: 50px;
+    height: 100px;
   }
   .div-description-style{
-    height: 150px;
+    height: 60px;
   }
 
 }

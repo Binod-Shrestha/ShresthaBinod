@@ -11,72 +11,89 @@
   .jumbotron{
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
     background-size: cover;
-    margin-top: 60px;
-    height: 790px;
+    margin-top: 10px;
+    height:100%;
     z-index: -1;
 
   }
-  .jumbotron h1{
-    color: red;
-    font-size: 25pt;
+  .div-font-medium, p,li{
+    font-size: 18pt;
+    line-height: normal;
   }
-  .jumbotron p{
-    color: white;
+  ul > li{
+    margin-left: 40pt;
+  }
+  .card-row{
+    justify-content: center;
+    margin-top: 150pt;
+  }
+  .row-job-title{
     font-size: 15pt;
+    padding-bottom: 25pt;
+  }
+  .div-profile-image{
+    justify-content: center;
+  }
+  .style-div-name{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+  }
+  .style-div-link{
+    margin-top: 15pt;
+    justify-content: center;
+    font-size: 15pt;
+  }
+  .circular-image{
+    border-radius: 50%;
+    width: 150pt;
+    border: 2pt solid white;
   }
 
   button{
     background-color: rgba(255,255,255,0.2);
     color:white;
     width: 100%;
-    height: 50pt;
+    height: 45pt;
     cursor: pointer;
     font-size: 18pt;
     font-family: "South East";
-    color: yellow;
+    color: #f59245;
+    margin-top: 150pt;
 
-  }
-  .container{
-    max-width: 2000px;
   }
 
   .linkImage{
-    width: 30px;
+    width: 8px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
   }
   .card{
     height: 400pt;
-    width: auto;
+    width: 60%;
+    border: 1pt solid gray;
+
   }
   .profile{
-    background: rgba(255,255,255, 0.1);
+    background: rgba(0,0,0, 0.8);
     color:white;
   }
   .img-border{
     border: 2pt solid beige;
   }
-  .btnReadMoreDiv{
-    padding-top: 200pt;
 
-  }
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
-
+  }
+  .mobile-row{
+    text-align: center;
   }
   h2{
     font-family:"Helvetica";
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: bold;
     color: #f59245;
-  }
-  p{
-    font-size:15pt;
-    line-height: normal;
-  }
-  ul > li{
-    font-size: 15pt;
-    line-height: normal;
   }
 }
 
@@ -91,60 +108,79 @@
   .jumbotron{
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
     background-size: cover;
-    margin-top: 60px;
-    height: 790px;
+    margin-top: 10px;
+    height:500px;
     z-index: -1;
 
   }
-  .jumbotron h1{
-    color: red;
-    font-size: 25pt;
+  .card-row{
+    justify-content: center;
+    margin-top: 50pt;
   }
-  .jumbotron p{
-    color: white;
-    font-size: 15pt;
+  .row-job-title{
+    font-size: 10pt;
+  }
+  .div-profile-image{
+    justify-content: center;
+  }
+  .style-div-name{
+    justify-content: center;
+    align-items: center;
+  }
+  .style-div-link{
+    margin-top: 5pt;
+    justify-content: center;
+    font-size: 7pt;
+  }
+  .circular-image{
+    border-radius: 50%;
+    width: 70pt;
+    border: 2pt solid white;
   }
 
   button{
     background-color: rgba(255,255,255,0.2);
     color:white;
     width: 100%;
-    height: 50pt;
+    height: 30pt;
     cursor: pointer;
-    font-size: 18pt;
+    font-size: 15pt;
+    font-family: "South East";
+    color: #f59245;
 
-  }
-  .container{
-    max-width: 2000px;
   }
 
   .linkImage{
-    width: 30px;
+    width: 8px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
   }
   .card{
-    height: 350pt;
-    width: auto;
+    height: 100%;
+    width: 85%;
+    border: 1pt solid gray;
+
   }
   .profile{
-    background: rgba(255,255,255, 0.1);
+    background: rgba(0,0,0, 0.8);
     color:white;
   }
   .img-border{
     border: 2pt solid beige;
   }
   .btnReadMoreDiv{
-    padding-top: 200pt;
-
+    padding-top: 40pt;
   }
+
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
-
+  }
+  .mobile-row{
+    text-align: center;
   }
   h2{
     font-family:"Helvetica";
-    font-size: 20pt;
+    font-size: 10pt;
     font-weight: bold;
     color: #f59245;
   }
@@ -158,55 +194,83 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
+  /* CSS */
   .jumbotron{
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
     background-size: cover;
-    margin-top: 60px;
-    height: 790px;
+    margin-top: 10px;
+    height:500px;
     z-index: -1;
 
+  }
+  .card-row{
+    justify-content: center;
+    margin-top: 50pt;
+  }
+  .row-job-title{
+    font-size: 10pt;
+  }
+  .div-profile-image{
+    justify-content: center;
+  }
+  .style-div-name{
+    justify-content: center;
+    align-items: center;
+  }
+  .style-div-link{
+    margin-top: 5pt;
+    justify-content: center;
+    font-size: 7pt;
+  }
+  .circular-image{
+    border-radius: 50%;
+    width: 70pt;
+    border: 2pt solid white;
   }
 
   button{
     background-color: rgba(255,255,255,0.2);
     color:white;
     width: 100%;
-    height: 50pt;
+    height: 30pt;
     cursor: pointer;
     font-size: 15pt;
+    font-family: "South East";
+    color: #f59245;
 
-  }
-  .container{
-    max-width: 2000px;
   }
 
   .linkImage{
-    width: 30px;
+    width: 8px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
   }
   .card{
-    height: 300pt;
-    width: auto;
+    height: 100%;
+    width: 85%;
+    border: 1pt solid gray;
+
   }
   .profile{
-    background: rgba(255,255,255, 0.1);
+    background: rgba(0,0,0, 0.8);
     color:white;
   }
   .img-border{
     border: 2pt solid beige;
   }
   .btnReadMoreDiv{
-    padding-top: 200pt;
-
+    padding-top: 40pt;
   }
+
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
-
+  }
+  .mobile-row{
+    text-align: center;
   }
   h2{
     font-family:"Helvetica";
-    font-size: 15pt;
+    font-size: 10pt;
     font-weight: bold;
     color: #f59245;
   }
@@ -217,62 +281,6 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  /* CSS */
-  .jumbotron{
-    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
-    background-size: cover;
-    margin-top: 60px;
-    height: 790px;
-    z-index: -1;
-
-  }
-
-  button{
-    background-color: rgba(255,255,255,0.2);
-    color:white;
-    width: 100%;
-    height: 50pt;
-    cursor: pointer;
-    font-size: 15pt;
-
-  }
-  .container{
-    max-width: 2000px;
-  }
-
-  .linkImage{
-    width: 30px;
-    height: auto;
-    margin: 10px;
-  }
-  .card{
-    height: 300pt;
-    width: auto;
-  }
-  .profile{
-    background: rgba(255,255,255, 0.1);
-    color:white;
-  }
-  .img-border{
-    border: 2pt solid beige;
-  }
-  .btnReadMoreDiv{
-    padding-top: 200pt;
-
-  }
-  .btnReadMore:hover{
-    background: rgba(255,255,255, 0.4);
-
-  }
-  h2{
-    font-family:"Helvetica";
-    font-size: 15pt;
-    font-weight: bold;
-    color: #f59245;
-  }
-}
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -285,52 +293,79 @@
   .jumbotron{
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
     background-size: cover;
-    margin-top: 60px;
-    height: 790px;
+    margin-top: 10px;
+    height:500px;
     z-index: -1;
 
+  }
+  .card-row{
+    justify-content: center;
+    margin-top: 20pt;
+  }
+  .row-job-title{
+    font-size: 8pt;
+  }
+  .div-profile-image{
+    justify-content: center;
+  }
+  .style-div-name{
+    justify-content: center;
+    align-items: center;
+  }
+  .style-div-link{
+    margin-top: 5pt;
+    justify-content: center;
+    font-size: 7pt;
+  }
+  .circular-image{
+    border-radius: 50%;
+    width: 70pt;
+    border: 2pt solid white;
   }
 
   button{
     background-color: rgba(255,255,255,0.2);
     color:white;
-    width: 100%;
-    height: 50pt;
+    width: 50%;
+    height: 30pt;
     cursor: pointer;
-    font-size: 15pt;
+    font-size: 8pt;
+    font-family: "South East";
+    color: #f59245;
 
-  }
-  .container{
-    max-width: 2000px;
   }
 
   .linkImage{
-    width: 30px;
+    width: 8px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
   }
   .card{
-    height: 300pt;
-    width: auto;
+    height: 100%;
+    width: 65%;
+    border: 1pt solid gray;
+
   }
   .profile{
-    background: rgba(255,255,255, 0.1);
+    background: rgba(0,0,0, 0.8);
     color:white;
   }
   .img-border{
     border: 2pt solid beige;
   }
   .btnReadMoreDiv{
-    padding-top: 200pt;
-
+    padding-top: 40pt;
   }
+
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
-
+  }
+  .mobile-row{
+    text-align: center;
   }
   h2{
     font-family:"Helvetica";
-    font-size: 15pt;
+    font-size: 10pt;
     font-weight: bold;
     color: #f59245;
   }
@@ -343,56 +378,82 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  /* CSS */
   .jumbotron{
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../../assets/images/coding.gif") top center;
     background-size: cover;
-    margin-top: 60px;
-    height: 790px;
+    margin-top: 10px;
+    height:500px;
     z-index: -1;
 
+  }
+  .card-row{
+    justify-content: center;
+    margin-top: 20pt;
+  }
+  .row-job-title{
+    font-size: 8pt;
+  }
+  .div-profile-image{
+    justify-content: center;
+  }
+  .style-div-name{
+    justify-content: center;
+    align-items: center;
+  }
+  .style-div-link{
+    margin-top: 5pt;
+    justify-content: center;
+    font-size: 7pt;
+  }
+  .circular-image{
+    border-radius: 50%;
+    width: 70pt;
+    border: 2pt solid white;
   }
 
   button{
     background-color: rgba(255,255,255,0.2);
     color:white;
-    width: 100%;
-    height: 50pt;
+    width: 50%;
+    height: 30pt;
     cursor: pointer;
-    font-size: 15pt;
+    font-size: 8pt;
+    font-family: "South East";
+    color: #f59245;
 
-  }
-  .container{
-    max-width: 2000px;
   }
 
   .linkImage{
-    width: 30px;
+    width: 8px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
   }
   .card{
-    height: 300pt;
-    width: auto;
+    height: 100%;
+    width: 65%;
+    border: 1pt solid gray;
+
   }
   .profile{
-    background: rgba(255,255,255, 0.1);
+    background: rgba(0,0,0, 0.8);
     color:white;
   }
   .img-border{
     border: 2pt solid beige;
   }
   .btnReadMoreDiv{
-    padding-top: 200pt;
-
+    padding-top: 40pt;
   }
+
   .btnReadMore:hover{
     background: rgba(255,255,255, 0.4);
-
+  }
+  .mobile-row{
+    text-align: center;
   }
   h2{
     font-family:"Helvetica";
-    font-size: 15pt;
+    font-size: 10pt;
     font-weight: bold;
     color: #f59245;
   }

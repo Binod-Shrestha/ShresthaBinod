@@ -9,10 +9,12 @@ import {jobLists} from '../dummy-data';
 })
 export class JobsPageComponent implements OnInit {
 jobs: Jobs[] = [];
+
   constructor() { }
 
   ngOnInit(): void {
     this.jobs = jobLists;
+
   }
 
 }
