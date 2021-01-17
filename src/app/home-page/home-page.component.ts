@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageComponent implements OnInit {
    clsFront = '';
    showCard: Boolean = false;
+   currentDate: number;
 
   constructor() { }
   ngOnInit(): void {
+    this.currentDate = Date.now();
 
   }
   displayMore(){
