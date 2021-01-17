@@ -4,7 +4,7 @@
     <div class="col-md-4"></div>
     <div class="col-md-4 mobile-row">
       <div class="btnReadMoreDiv">
-          <button (click)="displayMore()" class="btnReadMore" >Know More About Me</button>
+          <button (click)="displayMore();" (click)="scroll()"  class="btnReadMore" >Know More About Me</button>
       </div>
     </div>
     <div class="col-md-4 mobile-row">
@@ -36,7 +36,7 @@
 </div>
 <div class="row">
   <div class="col-md-3"></div>
-  <div class="col-md-6" [ngClass]="'style-highlights'"  >
+  <div class="col-md-6" [ngClass]="'style-highlights'" >
     <ul  *ngIf="showCard"><i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
       <p > Hello, My name is Binod Shrestha. I am an aspiring <b>Software Developer</b>.
         I graduated from Sheridan College in Software Development and Network Engineering course.I did my
@@ -45,7 +45,7 @@
         mobile application(iOS and Android). I am passionate about learning to code.All in all, I want to
         pursue my career as full stack developer in the future.
       </p>
-      <h2>Highlights</h2>
+      <h2 id="target">Highlights</h2>
       <li [ngStyle]="'div-font-medium'">Solid understanding of mobile and web application using Java, Spring Boot, SQL, JavaScript, Swift, Kotlin, Dart, Angular (UI), React (UI), Dart, MongoDB</li>
       <li>Experienced in writing clean code, testing, debugging, modifying existing software program</li>
       <li>Experienced in TDD, Pair Programming and Agile Methodology using SCRUM</li>
@@ -58,5 +58,5 @@
   <div class="col-md-3"></div>
 </div>
 
-<app-footer></app-footer>
+<app-footer ></app-footer>
 

@@ -17,5 +17,7 @@ export class HomePageComponent implements OnInit {
     this.showCard = this.showCard ? false : true;
   }
 
-
+scroll(){
+    document.getElementById("target").scrollIntoView();
+}
 }
