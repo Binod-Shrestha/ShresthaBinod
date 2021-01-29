@@ -265,6 +265,10 @@
   }
   .btnReadMoreDiv{
     padding-top: 40pt;
+
+  }
+  .btn-font{
+    font-size: 10pt;
   }
 
   .btnReadMore:hover{
