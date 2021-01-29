@@ -3,8 +3,10 @@
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+mat-form-field{
+  width: 100%;
+}
 @media (min-width: 1501px) {
-
 
   h1{
     text-align: center;
@@ -24,9 +26,7 @@
     font-size: 15pt;
 
   }
-  .input-width{
-    width: 350pt;
-  }
+
   .hidden {
     display: none
   }
@@ -37,7 +37,7 @@
     text-align: center
   }
 
-  input,
+
   button {
     margin-bottom: 10px;
     padding: 5pt;
@@ -60,10 +60,7 @@
     color: white;
     background-color: dodgerblue;
   }
-  .text-area{
-    height: 180pt;
-    width: 450pt;
-  }
+
 }
 
 @media (min-width: 1281px) and (max-width: 1500px) {
