@@ -1,33 +1,24 @@
 <app-header></app-header>
 <div [ngClass]="'work-title-mt'">
   <div><h1>Volunteers/Hackathons</h1></div>
-  <div class="card mb-3"  *ngFor="let volunteer of volunteers">
-    <div class="card-body">
-      <div class="row card-image">
-        <div class="col-4" [ngClass]="'div-hidden'">
-          <img src="./assets/images/{{volunteer.image}}" class="img-responsive">
+  <mat-accordion>
+    <mat-expansion-panel
+      *ngFor="let volunteer of volunteers"
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <div class="row" style="width: 100%">
+          <div class="col-5" ><mat-panel-title>{{volunteer.organization}}</mat-panel-title></div>
+          <div class="col-7" ><mat-panel-description>{{volunteer.start_year}}/{{volunteer.start_month}} --- {{volunteer.end_year}}/{{volunteer.end_month}}
+          </mat-panel-description></div>
         </div>
-        <div class="col-8" >
-          <div class="row volunteer-details">
-            <div class="col-4" >
-              <div [ngClass]="'div-company-width'">
-                <div [ngClass]="'div-hidden2'">
-                  <img src="./assets/images/{{volunteer.image}}" class="img-responsive">
-                </div>
-                <h2 class="card-title">{{volunteer.organization}}</h2>
-                <p class="card-title">Start Year: {{volunteer.start_year}}-{{volunteer.start_month}}</p>
-                <p class="card-title">End Year: {{volunteer.end_year}} - {{volunteer.end_month}} </p>
-              </div>
-
-            </div>
-            <div class="col-8" [ngClass]="'div-hidden'">
-              <span class="card-title"><h2>Jobs and Responsibilities:</h2>{{volunteer.description}}</span>
-            </div>
-          </div>
-        </div>
+      </mat-expansion-panel-header>
+      <div class="row">
+        <div class="col-4"><img src="./assets/images/{{volunteer.image}}" class="img-responsive" [ngClass]="'div-hidden'"></div>
+        <div class="col-8 description" [ngClass]="'div-hidden'"><span ><h2>Jobs and Responsibilities:</h2>{{volunteer.description}}</span></div>
       </div>
-    </div>
-  </div>
+    </mat-expansion-panel>
+  </mat-accordion>
 
 </div>
   <app-footer></app-footer>

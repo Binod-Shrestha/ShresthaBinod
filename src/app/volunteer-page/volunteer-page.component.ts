@@ -9,6 +9,7 @@ import {PortfolioService} from '../portfolio.service';
 })
 export class VolunteerPageComponent implements OnInit {
 toggleDiv = false;
+  panelOpenState = false;
 volunteers: Volunteer[]=[];
   constructor(private _volunteerService: PortfolioService) { }
 
