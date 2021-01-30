@@ -4,6 +4,7 @@ export interface Project{
   description: string,
   completed: number,
   image: string,
+  gitHub: string,
 }
 export interface Course{
   id: string,
