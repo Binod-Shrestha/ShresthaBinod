@@ -9,6 +9,10 @@ mat-expansion-panel{
   margin-left: 10%;
   margin-top: 1rem;
 }
+h1{
+  text-align: center;
+  font-family: "Roboto" ;
+}
 
 @media (min-width: 1281px) {
 
@@ -17,8 +21,6 @@ mat-expansion-panel{
     margin-top: 80pt;
   }
   h1{
-    text-align: center;
-    font-family: "South East" ;
     font-weight: bold;
     font-size: 30pt;
     margin-bottom: 40pt;
@@ -51,8 +53,6 @@ mat-expansion-panel{
     margin-top: 80pt;
   }
   h1{
-    text-align: center;
-    font-family: "South East" ;
     font-weight: bold;
     font-size: 30pt;
     margin-bottom: 40pt;
@@ -88,10 +88,7 @@ mat-expansion-panel{
   .work-title-mt{
     margin-top: 80pt;
   }
-  h1{
-    text-align: center;
-    font-family: "South East";
-  }
+
   .img-responsive{
     width: 200px;
     height: auto;
@@ -121,10 +118,7 @@ mat-expansion-panel{
   .work-title-mt{
     margin-top: 80pt;
   }
-  h1{
-    text-align: center;
-    font-family: "South East";
-  }
+
   mat-expansion-panel-header{
     font-size: 10pt;
     line-height: normal;
@@ -157,6 +151,7 @@ mat-expansion-panel{
   .work-title-mt{
     margin-top: 50pt;
   }
+
   mat-expansion-panel-header{
     font-size: 10pt;
     line-height: normal;
@@ -179,6 +174,7 @@ mat-expansion-panel{
   .work-title-mt{
     margin-top: 50pt;
   }
+
   mat-expansion-panel-header{
     font-size: 10pt;
     line-height: normal;
@@ -198,6 +194,7 @@ mat-expansion-panel{
   .work-title-mt{
     margin-top: 50pt;
   }
+
   mat-expansion-panel-header{
      font-size: 8pt;
     line-height: normal;

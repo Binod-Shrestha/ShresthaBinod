@@ -6,11 +6,14 @@
 mat-form-field{
   width: 100%;
 }
+h1{
+  text-align: center;
+  font-family: "Contact" ;
+}
 @media (min-width: 1501px) {
 
   h1{
-    text-align: center;
-    font-family: "South East" ;
+
     font-weight: bold;
     font-size: 25pt;
 
@@ -67,8 +70,7 @@ mat-form-field{
 
   /* CSS */
   h1{
-    text-align: center;
-    font-family: "South East" ;
+
     font-weight: bold;
     font-size: 25pt;
   }
@@ -139,9 +141,7 @@ mat-form-field{
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   /* CSS */
-  h1{
-    font-family: "South East";
-  }
+
   .card{
     margin-top: 100pt;
     padding: 20pt;
