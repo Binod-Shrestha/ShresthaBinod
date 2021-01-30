@@ -6,13 +6,23 @@
 
 @media (min-width: 1281px) {
 
-  /* CSS */
-  .footer{
+  /* CSS */.footer{
+  text-align: center;
+  height: 100pt;
+  font-size: 10pt;
+  line-height: normal;
+
+}
+  .div-develop img{
+    width: 13%;
+    height: auto;
     text-align: center;
-    height: 100pt;
+    line-height: normal;
 
-
-
+  }
+  .div-footer{
+    text-align: end;
+    padding-right: 20pt;
   }
 }
 
@@ -27,7 +37,20 @@
   .footer{
     text-align: center;
     height: 100pt;
+    font-size: 10pt;
+    line-height: normal;
 
+  }
+  .div-develop img {
+    width: 25%;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .div-footer{
+    text-align: end;
+    padding-right: 20pt;
   }
 }
 
@@ -39,10 +62,24 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
+
   .footer{
     text-align: center;
     height: 100pt;
+    font-size: 10pt;
+    line-height: normal;
 
+  }
+  .div-develop img{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+
+  }
+  .div-footer{
+    text-align: end;
+    padding-right: 20pt;
   }
 }
 
@@ -57,7 +94,20 @@
   .footer{
     text-align: center;
     height: 100pt;
+    font-size: 10pt;
+    line-height: normal;
 
+  }
+  .div-develop img{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+
+  }
+  .div-footer{
+    text-align: end;
+    padding-right: 20pt;
   }
 }
 
@@ -72,7 +122,20 @@
   .footer{
     text-align: center;
     height: 100pt;
+    font-size: 8pt;
+    line-height: normal;
 
+  }
+  .div-develop img{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+
+  }
+  .div-footer{
+    text-align: end;
+    padding-right: 20pt;
   }
 }
 
@@ -88,6 +151,18 @@
     text-align: center;
     height: 100pt;
     font-size: 8pt;
+    line-height: normal;
 
+  }
+  .div-develop img{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+
+  }
+  .div-footer{
+    text-align: end;
+    padding-right: 20pt;
   }
 }
