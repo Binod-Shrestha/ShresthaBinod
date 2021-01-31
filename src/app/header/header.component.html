@@ -14,7 +14,7 @@
 </p>
   <span class="web-title" style="color: #f3cb08">Binod Shrestha</span>
   <div class="spacer"></div>
-  <nav>
+  <nav [ngClass]="'div-hidden'">
     <ul>
       <li><a  routerLink="/home" routerLinkActive="active" >Home</a></li>
       <li><a  routerLink="/project" routerLinkActive="active">Project</a></li>
@@ -23,8 +23,18 @@
       <li><a routerLink="/volunteer" routerLinkActive="active">Volunteer</a></li>
       <li style="float:right" routerLinkActive="active"><a routerLink="/contact" >Contact</a></li>
     </ul>
-
   </nav>
+  <div class="menu-icon" [ngClass]="'div-hidden2'">
+  <mat-icon [matMenuTriggerFor]="menu" [inline]="true">menu</mat-icon>
+  <mat-menu #menu="matMenu">
+    <span mat-menu-item class="link-highlight"><a  routerLink="/home" >Home</a></span>
+    <span mat-menu-item class="link-highlight"><a  routerLink="/project" >Project</a></span>
+    <span mat-menu-item class="link-highlight"><a routerLink="/course">Course</a></span>
+    <span mat-menu-item class="link-highlight"><a routerLink="/jobs" >Jobs</a></span>
+    <span mat-menu-item class="link-highlight"><a routerLink="/volunteer" >Volunteer</a></span>
+    <span mat-menu-item class="link-highlight"><a routerLink="/contact" >Contact</a></span>
+  </mat-menu>
+</div>
 </mat-toolbar>
 
 </div>

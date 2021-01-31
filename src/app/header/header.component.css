@@ -177,7 +177,10 @@
   .navBanner{
     background-color: #176a8d;
   }
-
+  .div-hidden2 {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /*
@@ -188,22 +191,14 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
+  .web-title{
+    font-size: 15pt;
+
+  }
   .spacer-img-label{
     margin-right: 25pt;
   }
-  nav {
-    font-size: 15px;
-  }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
   .navBar{
     position: fixed;
     top:0;
@@ -211,32 +206,27 @@
     z-index: 1;
   }
 
-  li {
-    float: left;
+  .navBanner{
+    background-color: #176a8d;
   }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  .div-hidden {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-icon{
+    color:white;
+    text-align: end;
+    font-size: 40px;
 
   }
   .spacer{
     flex: 1 1 auto;
   }
-
-  li a:hover {
-    background-color: #f3cb08;
+  .link-highlight{
+    cursor: pointer;
   }
-
-  .active {
-    background-color: green;
-
-  }
-  .navBanner{
-    background-color: #176a8d;
+  .link-highlight:hover{
+    background-color: #f3f3f3;
   }
 
 }
@@ -248,22 +238,14 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   /* CSS */
+  .web-title{
+    font-size: 12pt;
+
+  }
   .spacer-img-label{
     margin-right: 25pt;
   }
-  nav {
-    font-size: 15px;
-  }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
   .navBar{
     position: fixed;
     top:0;
@@ -271,32 +253,27 @@
     z-index: 1;
   }
 
-  li {
-    float: left;
+  .navBanner{
+    background-color: #176a8d;
   }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  .div-hidden {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-icon{
+    color:white;
+    text-align: end;
+    font-size: 40px;
 
   }
   .spacer{
     flex: 1 1 auto;
   }
-
-  li a:hover {
-    background-color: #f3cb08;
+  .link-highlight{
+    cursor: pointer;
   }
-
-  .active {
-    background-color: green;
-
-  }
-  .navBanner{
-    background-color: #176a8d;
+  .link-highlight:hover{
+    background-color: #f3f3f3;
   }
 }
 
@@ -309,25 +286,13 @@
 
   /* CSS */
   .web-title{
-    font-size: 9pt;
+    font-size: 12pt;
 
   }
   .spacer-img-label{
     margin-right: 25pt;
   }
-  nav {
-    font-size: 12px;
-  }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
   .navBar{
     position: fixed;
     top:0;
@@ -335,30 +300,27 @@
     z-index: 1;
   }
 
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 8px 8px;
-    text-decoration: none;
-
-  }
-
-
-  li a:hover {
-    background-color: #f3cb08;
-  }
-
-  .active {
-    background-color: green;
-
-  }
   .navBanner{
     background-color: #176a8d;
+  }
+  .div-hidden {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-icon{
+    color:white;
+    text-align: end;
+    font-size: 40px;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+  .link-highlight{
+    cursor: pointer;
+  }
+  .link-highlight:hover{
+    background-color: #f3f3f3;
   }
 }
 
@@ -369,28 +331,13 @@
 @media (min-width: 411px) and (max-width: 480px) {
 
   .web-title{
-    font-size: 10pt;
+    font-size: 12pt;
 
   }
   .spacer-img-label{
-    margin-right: 19pt;
-  }
-  nav {
-    font-size: 10px;
-    width: 100%;
-    text-align: right;
-
+    margin-right: 25pt;
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 15pt;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
   .navBar{
     position: fixed;
     top:0;
@@ -398,30 +345,27 @@
     z-index: 1;
   }
 
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1px 2px;
-    text-decoration: none;
-
-  }
-
-
-  li a:hover {
-    background-color: #f3cb08;
-  }
-
-  .active {
-    background-color: green;
-
-  }
   .navBanner{
     background-color: #176a8d;
+  }
+  .div-hidden {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-icon{
+    color:white;
+    text-align: end;
+    font-size: 40px;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+  .link-highlight{
+    cursor: pointer;
+  }
+  .link-highlight:hover{
+    background-color: #f3f3f3;
   }
 }
 
@@ -429,25 +373,13 @@
 
   /* CSS */
 .web-title{
-  font-size: 8pt;
+  font-size: 12pt;
 
 }
   .spacer-img-label{
-    margin-right: 18pt;
-  }
-  nav {
-    font-size: 10px;
+    margin-right: 25pt;
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 7pt;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
   .navBar{
     position: fixed;
     top:0;
@@ -455,30 +387,25 @@
     z-index: 1;
   }
 
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1px 2px;
-    text-decoration: none;
-
-  }
-
-
-  li a:hover {
-    background-color: #f3cb08;
-  }
-
-  .active {
-    background-color: green;
-
-  }
   .navBanner{
     background-color: #176a8d;
   }
-
+  .div-hidden {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-icon{
+    color:white;
+    text-align: end;
+    font-size: 30px;
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+  .link-highlight{
+    cursor: pointer;
+  }
+  .link-highlight:hover{
+    background-color: #f3f3f3;
+  }
 }
