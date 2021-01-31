@@ -1,33 +1,30 @@
 <div [ngClass]="'work-title-mt'">
-  <div><h1>Work Experiences</h1></div>
-  <div>
-    <div class="card mb-3" *ngFor="let job of jobs">
-      <div class="card-body">
-        <div class="row card-image">
-          <div class="col-4" [ngClass]="'div-hidden'">
-            <img src="./assets/images/{{job.image}}" class="img-responsive">
-          </div>
-          <div class="col-8">
-            <div class="row job-details">
-              <div class="col-4">
-                <div [ngClass]="'div-company-width'">
-                  <div [ngClass]="'div-hidden2'">
-                    <img src="./assets/images/{{job.image}}" class="img-responsive">
-                  </div>
-                  <h2 class="card-title">{{job.company}}</h2>
-                  <p class="card-title">Position: {{job.job_title}}</p>
-                  <p class="card-title">Start Year: {{job.start_year}} - {{job.start_month}}</p>
-                  <p class="card-title">End Year: {{job.end_year}} - {{job.end_month}} </p>
-                </div>
-              </div>
-              <div class="col-8" [ngClass]="'div-hidden'">
-                <span class="card-title"><b>Jobs and Responsibilities:</b><br> {{job.job_description}}</span>
-              </div>
-            </div>
-          </div>
+  <div class="work-title"><h1>Work Experiences</h1></div>
+<div class=" row style-card">
+  <div class="card mb-3" *ngFor="let job of jobs">
+    <div class="card-body">
+      <div class="style-img" [ngClass]="'div-hidden'">
+        <img src="./assets/images/{{job.image}}" class="img-responsive">
+      </div>
+      <div class="job-details">
+        <div [ngClass]="'div-hidden2'">
+          <img src="./assets/images/{{job.image}}" class="img-responsive">
+        </div>
+        <div style="text-align: left; margin-top: 5pt">
+          <h2 class="card-title">{{job.company}}</h2>
+          <p class="card-title">Position: {{job.job_title}}</p>
+          <p class="card-title">Start Year: {{job.start_year}} - {{job.start_month}}</p>
+          <p class="card-title">End Year: {{job.end_year}} - {{job.end_month}} </p>
+        </div>
+
+        <div  [ngClass]="'div-hidden'">
+          <span class="card-title"><b>Jobs and Responsibilities:</b><br> {{job.job_description}}</span>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+  </div>
+
 

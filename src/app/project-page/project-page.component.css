@@ -262,6 +262,9 @@ h1 {
 @media (min-width: 320px) and (max-width: 410px) {
 
   /* CSS */
+  h1{
+    font-size: 15pt;
+  }
   .style-project-name {
     margin-top: 15pt;
   }

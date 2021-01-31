@@ -6,12 +6,14 @@ h1 {
   text-align: center;
   font-family: "Roboto";
 }
-
+.style-alignment{
+  text-align: center;
+}
 @media (min-width: 1281px) {
 
   /* CSS */
+
   h1 {
-    font-weight: bold;
     font-size: 30pt;
     margin-bottom: 30pt;
   }
@@ -66,8 +68,6 @@ h1 {
   }
 
   h1 {
-
-    font-weight: bold;
     font-size: 25pt;
     margin-bottom: 20pt;
   }
@@ -121,19 +121,12 @@ h1 {
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /* CSS */
-  .style-alignment {
-    margin-left: -75pt;
-
-  }
-
   .card-row {
     margin-top: 80pt;
     margin-left: 5%;
   }
 
   h1 {
-
-    font-weight: bold;
     font-size: 20pt;
     margin-bottom: 15pt;
   }
@@ -193,8 +186,6 @@ h1 {
   }
 
   h1 {
-
-    font-weight: bold;
     font-size: 25pt;
     margin-bottom: 20pt;
   }
@@ -250,19 +241,13 @@ h1 {
 
   /* CSS */
   /* CSS */
-  .style-alignment {
-    margin-left: -75pt;
-
-  }
-
-  .card-row {
+   .card-row {
     margin-top: 60pt;
     margin-left: 6%;
   }
 
   h1 {
 
-    font-weight: bold;
     font-size: 20pt;
     margin-bottom: 10pt;
   }
@@ -315,17 +300,12 @@ h1 {
 @media (min-width: 320px) and (max-width: 480px) {
 
   /* CSS */
-  .style-alignment {
-    margin-left: -25pt;
-  }
 
   .card-row {
     margin-top: 50pt;
   }
 
   h1 {
-
-    font-weight: bold;
     font-size: 15pt;
 
   }
