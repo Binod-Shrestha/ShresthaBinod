@@ -9,6 +9,7 @@ h1 {
 .work-title{
   text-align: center;
   width: 100%;
+  margin-top: 80pt;
 }
 .work-title-mt {
   margin-top: 50pt;
@@ -78,7 +79,7 @@ h1 {
 
   .card {
     height: auto;
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin-left: 10pt;
     margin-right: 10pt;
@@ -117,10 +118,9 @@ h1 {
 
   .card {
     height: auto;
-    width: 100%;
+    width: 80%;
     text-align: center;
-    margin-left: 10pt;
-    margin-right: 10pt;
+
   }
 
    .div-hidden2 {
@@ -152,7 +152,7 @@ h1 {
 
   .card {
     height: auto;
-    width: 100%;
+    width: 80%;
    text-align: center;
   }
 
@@ -181,7 +181,7 @@ h1 {
 
   .card {
     height: auto;
-    width: 100%;
+    width: 80%;
     margin-right: 5pt;
     margin-left: 5pt;
     text-align: center;
@@ -221,7 +221,7 @@ h1 {
 
   .card {
     height: auto;
-    width: 100%;
+    width: 80%;
     margin-right: 5pt;
     margin-left: 5pt;
     text-align: center;

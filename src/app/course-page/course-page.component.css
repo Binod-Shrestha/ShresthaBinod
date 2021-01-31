@@ -14,8 +14,9 @@ h1 {
   /* CSS */
 
   h1 {
-    font-size: 30pt;
+    font-size: 25pt;
     margin-bottom: 30pt;
+    margin-top: 80pt;
   }
 
   .card-row {
