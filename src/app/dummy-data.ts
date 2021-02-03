@@ -4,7 +4,7 @@ export const projectLists: Project[] = [{
     id: '0',
     name: 'My Portfolio',
     description: `This application was developed using Angular Framework. The application has bootstrap and material icon for good feel and
-                  \nlook.The following things have been used in the applications:\n
+                  look.The following things have been used in the applications:
                   * Services
                   * Routing
                   * Event Binding
@@ -71,7 +71,7 @@ export const projectLists: Project[] = [{
   description: 'a java spring boot web application',
   completed: 2020,
   image: "event.jpg",
-  gitHub: "",
+  gitHub: "https://github.com/Binod-Shrestha/EDGE-SheridanCapstone2020",
 }];
 
 export const courseLists: Course[] = [{
