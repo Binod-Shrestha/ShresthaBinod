@@ -9,6 +9,9 @@ export const projectLists: Project[] = [{
                   * Routing
                   * Event Binding
                   * Property Binding
+                  * Two-Way Data Binding
+                  * Email Functionality
+                  * Angular Material
                   * BootStrap
                   * Material Icons
 
@@ -19,28 +22,48 @@ export const projectLists: Project[] = [{
 }, {
     id: '1',
     name: 'Sheridan-EDGE',
-    description: 'attendance tracking Ipad App',
+    description: `This is a capstone project. It was done in a team of four of us: Binod, Joseph, Abdullah and Elliot.
+                  This project was done for EDGE Sheridan. We build two applications: ipad and web application. Ipad was built for attendance
+                  tracking and text message for the mentors whereas web application was developed for administration where the data can be exported
+                  in different forms to analise. The application also has some data visualization.
+                  Technologies Used:
+                  - Swift
+                  - Docker
+                  - Ruby
+                  - Third party library: SCLAlert, Chart.js`,
   completed: 2020,
     image: "sheridan-edge.jpg",
   gitHub: "https://github.com/Binod-Shrestha/BASICCO-barSIS-app",
 }, {
   id: '2',
   name: 'MyNavi',
-  description: 'a map iOS application',
+  description: `An iOS application built in for navigating different location.
+                Technologies Used:
+                - Swift
+                - Xcode
+                `,
   completed: 2020,
   image: "map.jpeg",
   gitHub: "https://github.com/Binod-Shrestha/MyNavi",
 },{
   id: '3',
   name: 'Expense Tracker',
-  description: 'Dollar tracker android mobile app',
+  description: `Dollar tracker android mobile app. This application was in a team of three: Sam, Hemraj and Binod.
+                This application was built in using Android and some advance features of it:
+                - PageView
+                - Room Database
+                - Coroutines
+                -CarView
+                - RecyclerView
+                - Fragments
+                `,
   completed: 2020,
   image: "tracker.png",
   gitHub: "https://github.com/Binod-Shrestha/DollarFinalProject",
 }, {
   id: '4',
   name: 'Post Blog ',
-  description: 'Angular, Express, Node',
+  description: 'This application is under-construction. This a web application built in using Angular, Express, Node',
   completed: 2021,
   image: "e-commerce.jpeg",
   gitHub:"https://github.com/Binod-Shrestha/AngularMEAN",
@@ -53,7 +76,7 @@ export const projectLists: Project[] = [{
   gitHub: "#",
 },{
   id: '6',
-  name: 'Photo Gallary',
+  name: 'Photo Gallery',
   description: 'an iOS mobile application',
   completed: 2020,
   image: "gallery.png",
