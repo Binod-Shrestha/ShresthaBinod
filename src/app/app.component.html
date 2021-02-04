@@ -1,4 +1,58 @@
-
 <app-header></app-header>
+<button id="myBtn" (click)="isOpen = !isOpen" type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">Feedback
+</button>
+
+
+<!-- This template displays the overlay content and is connected to the button -->
+<ng-template
+  cdkConnectedOverlay
+  [cdkConnectedOverlayOrigin]="trigger"
+  [cdkConnectedOverlayOpen]="isOpen"
+>
+  <form>
+    <mat-card>
+      <div style="text-align: center">
+        <h2>Feedback</h2>
+        <hr>
+      </div>
+      <mat-label>How much do you rate?</mat-label>
+      <br>
+      <div >
+        <app-feedback></app-feedback>
+
+      </div>
+      <br>
+      <div class="div-dropdown"><mat-form-field>
+
+          <mat-label>Select one option</mat-label>
+          <mat-select style="height: 100%">
+            <mat-option value="Outstanding">Outstanding</mat-option>
+            <mat-option value="Good">Good</mat-option>
+            <mat-option value="Fair">Fair</mat-option>
+            <mat-option value="Poor">Poor</mat-option>
+          </mat-select>
+
+
+      </mat-form-field>
+      </div><br>
+      <mat-label> Please provide your constructive feedback:</mat-label>
+      <br>
+      <div class="div-textarea">
+        <mat-form-field >
+          <mat-label>Leave a comment</mat-label>
+          <textarea matInput rows="6" placeholder="Your feedback here...."></textarea>
+        </mat-form-field>
+      </div>
+
+      <br>
+      <div class="div-button">
+        <button mat-raised-button type="submit" (click)="isOpen = !isOpen" color="primary">Submit</button>
+
+      </div>
+    </mat-card>
+
+  </form>
+</ng-template>
+
 <router-outlet></router-outlet>
 <app-footer></app-footer>

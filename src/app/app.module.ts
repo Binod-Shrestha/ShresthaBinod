@@ -20,6 +20,9 @@ import { MaterialModule} from './material/material.module';
 import {FormsModule} from '@angular/forms';
 import {PortfolioService} from './portfolio.service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FeedbackComponent } from './components/feedback/feedback.component';
+import {MatOptionModule} from '@angular/material/core';
+import {MatSelectModule} from '@angular/material/select';
 
 
 @NgModule({
@@ -35,18 +38,21 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     CourseDetailPageComponent,
-    JobsDetailPageComponent
+    JobsDetailPageComponent,
+    FeedbackComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MaterialModule,
-        FormsModule,
-      HttpClientModule,
-      ReactiveFormsModule
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    MatOptionModule,
+    MatSelectModule
 
-    ],
+  ],
   providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
