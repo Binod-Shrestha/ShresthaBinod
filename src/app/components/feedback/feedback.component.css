@@ -40,3 +40,48 @@
 .rating > label:hover ~ input:checked ~ label {
   color: #ea0;
 }
+#myBtn {
+  position: fixed;
+  bottom: 400pt;
+  right: 0.05%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #176a8d;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 80pt;
+  transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  transform-origin: bottom right;
+}
+ng-template{
+  z-index: 150;
+}
+.div-textarea {
+  width: 100%;
+  text-align: center;
+}
+.div-dropdown  {
+  width: 100%;
+  text-align: center;
+}
+.div-button{
+  text-align: center;
+}
+mat-card{
+  border: 1pt solid gray;
+  bottom: 65%;
+}
+.div-clear{
+
+  color: red;
+  text-align: end;
+}
+.mat-icon{
+  cursor: pointer;
+
+}

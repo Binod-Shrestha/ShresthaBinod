@@ -9,6 +9,7 @@ export class FeedbackComponent implements OnInit {
   @Input() rating: number;
   @Input() itemId: number;
   @Output() ratingClick: EventEmitter<any> = new EventEmitter<any>();
+  isOpen = false;
 
   inputName: string;
   constructor() {
@@ -24,5 +25,9 @@ export class FeedbackComponent implements OnInit {
       itemId: this.itemId,
       rating: rating
     });
+  }
+
+  openFeedback(){
+
   }
 }

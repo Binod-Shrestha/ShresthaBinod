@@ -4,6 +4,9 @@
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+.work-title-mt{
+  height: 80%;
+}
 mat-expansion-panel{
   margin-right: 10%;
   margin-left: 10%;
